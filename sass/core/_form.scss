@@ -1,0 +1,50 @@
+.wrapperButton {
+    &.wB--center { text-align: center; }
+    &.wB--right { text-align: right; }
+    &.wB--left { text-align: left; }
+}
+
+/* btn */
+.btn {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    height: 38px;
+    line-height: 38px;
+    background: #ab8b59;
+    font-family: $Arial;
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+
+    @include breakpointmedia($media-768, 'max-width') {
+        font-size: 12px;
+        height: 30px;
+        line-height: 30px;
+    }
+}
+
+.btn--news {
+    overflow: hidden;
+
+    &:before {
+        position: absolute;
+        font-family: $FontAwesome;
+        right: -20px;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        transition: all 0.2s ease;
+        content: "\f178";
+    }
+
+    &:hover {
+        background-color: rgba(171, 139, 89, 0.9);
+        padding-right: 20px;
+
+        &:before { right: 10px; }
+    }
+}

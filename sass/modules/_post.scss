@@ -1,0 +1,76 @@
+.post {
+    background: url("../images/bg-1.jpg");
+    padding: 40px 0;
+
+    @include breakpointmedia($media-480, 'max-width') {
+        padding: 20px 0;
+    }
+}
+
+.post__box {
+    h1 {
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #ffffff;
+        margin-bottom: 20px;
+
+        @include breakpointmedia($media-480, 'max-width') {
+            font-size: 30px;
+            line-height: 22px;
+            margin-bottom: 15px;
+        }
+    }
+
+    h2 {
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #ffffff;
+        margin-bottom: 10px;
+
+        @include breakpointmedia($media-480, 'max-width') {
+            font-size: 18px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+    }
+
+    p {
+        font-family: $Arial;
+        font-size: 14px;
+        line-height: 18px;
+        color: #b1b2b2;
+        margin-bottom: 10px;
+
+        @include breakpointmedia($media-480, 'max-width') {
+            font-size: 13px;
+            line-height: 16px;
+            margin-bottom: 10px;
+        }
+
+        &:last-of-type { margin-bottom: 0; }
+
+        a {
+            color: #ff9a4b;
+            text-decoration: none;
+
+            &:hover { text-decoration: underline; }
+        }
+    }
+
+    img {
+        width: 100%;
+        padding-top: 13px;
+        padding-bottom: 16px;
+
+        @include breakpointmedia($media-480, 'max-width') {
+            padding-top: 5px;
+            padding-bottom: 15px;
+        }
+    }
+
+    br {
+        margin-bottom: 10px;
+    }
+}

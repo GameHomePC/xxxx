@@ -1,0 +1,81 @@
+html {
+    &.openMenu {
+        overflow: hidden;
+        height: 100%;
+        border: none;
+
+        body {
+            overflow: hidden;
+            position: relative;
+            box-sizing: border-box;
+            margin: 0;
+            height: 100%;
+        }
+
+        .menuMobile {
+            visibility: visible;
+            opacity: 1;
+        }
+
+        .menuMobile {
+            display: block;
+        }
+    }
+}
+
+
+body {
+    font-family: $Raleway;
+    background: #0a0807;
+    padding-top: 54px;
+}
+
+* {
+    -webkit-tap-highlight-color: transparent;
+}
+
+img {
+//    image-rendering: -moz-crisp-edges;
+//    image-rendering: -o-crisp-edges;
+//    image-rendering: -webkit-crisp-edges;
+//    image-rendering: -webkit-optimize-contrast;
+//    image-rendering: pixelated;
+//    -ms-interpolation-mode: nearest-neighbor;
+}
+
+.window {}
+
+.wrapper {
+    max-width: 950px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+/*  */
+.box {
+    @include clearfix;
+}
+
+.box__sBig {
+    float: left;
+    width: 100%;
+    box-sizing: border-box;
+    margin-right: -244px;
+    padding-right: 264px;
+
+    @include breakpointmedia($media-640, 'max-width') {
+        margin-right: 0;
+        padding-right: 0;
+    }
+}
+
+.box__sSmall {
+    position: relative;
+    float: left;
+    width: 244px;
+
+    @include breakpointmedia($media-640, 'max-width') {
+        width: 100%;
+        padding: 20px 0;
+    }
+}

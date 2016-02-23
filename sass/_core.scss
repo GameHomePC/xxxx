@@ -1,0 +1,23 @@
+/* fonts */
+@import "fonts/fonts";
+
+/* core */
+@import "core/reset",
+        "core/global",
+        "core/form";
+
+/* layout */
+@import "layout/header",
+        "layout/footer";
+
+/* module */
+@import "modules/homeSlider",
+        "modules/banner",
+        "modules/info",
+        "modules/news",
+        "modules/post";
+
+/* vendor */
+@import "vendor/owl.carousel/owl.carousel",
+        "vendor/owl.carousel/owl.theme",
+        "vendor/owl.carousel/owl.transitions";
