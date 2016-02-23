@@ -44,7 +44,7 @@
         </div>
 
         <div class="footer__bottom">
-            <span class="footer__copy">© 2010-2016 Великая Ложа России</span>
+            <span class="footer__copy">© 2010-2016 Великая Ложа России, Д.Л.Белый Рыцарь</span>
         </div>
     </div>
 </footer>
