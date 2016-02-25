@@ -1,4 +1,4 @@
-<?php include "/../menu/mobile-menu.php"; ?>
+<?php include "php/menu/mobile-menu.php"; ?>
 
 <header class="header" id="header">
     <div class="wrapper">
@@ -8,12 +8,12 @@
             </a>
         </div>
 
-        <?php include "/../menu/desktop-menu.php"; ?>
+        <?php include "php/menu/desktop-menu.php"; ?>
 
         <div class="headerMenu">
             <ul>
-                <li><a href="/">Форум</a></li>
-                <li class="headerMenu__underline"><a href="/">RU</a></li>
+                <li><a target="_blank" href="/forum/">Форум</a></li>
+<!--                <li class="headerMenu__underline"><a href="/">RU</a></li>-->
             </ul>
 
             <span class="menu-mobileLink">
