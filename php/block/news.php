@@ -52,7 +52,7 @@
             </div>
 
             <div class="box__sSmall">
-                <?php include "/../news/news-top.php"; ?>
+                <?php include "php/news/news-top.php"; ?>
             </div>
         </div>
     </div>
