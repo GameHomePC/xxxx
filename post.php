@@ -1,3 +1,5 @@
+<?php include "php/config/page.php"; ?>
+
 <!doctype html>
 <html>
     <head>

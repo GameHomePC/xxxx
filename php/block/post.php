@@ -2,7 +2,11 @@
     <div class="wrapper">
         <div class="box">
             <div class="box__sBig post__box">
-                <?php include "php/config/page.php"; ?>
+                <?php
+                    if(file_exists($page['page'])) {
+                        require_once($page['page']);
+                    }
+                ?>
             </div>
 
             <div class="box__sSmall">
