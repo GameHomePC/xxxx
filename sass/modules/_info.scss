@@ -1,5 +1,6 @@
 .info {
     background: url("../images/bg-1.jpg");
+    padding: 20px 0 40px;
 }
 
 /* news */
@@ -124,6 +125,10 @@
             &:hover {
                 text-decoration: underline;
             }
+        }
+
+        &:last-of-type {
+            margin-bottom: 0;
         }
     }
 
