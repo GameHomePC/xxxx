@@ -114,4 +114,16 @@ switch($_GET["page"]) {
             "page"=>"php/page/introduction.php"
         );
         break;
+    case 'true-false-freemasonry':
+        $page = array(
+            "title"=>"Правда и неправда о Масонстве",
+            "page"=>"php/page/true-false-freemasonry.php"
+        );
+        break;
+    case 'freemasonry-in-belarus':
+        $page = array(
+            "title"=>"Масонство в Беларуси",
+            "page"=>"php/page/freemasonry-in-belarus.php"
+        );
+        break;
 }
