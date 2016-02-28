@@ -126,4 +126,10 @@ switch($_GET["page"]) {
             "page"=>"php/page/freemasonry-in-belarus.php"
         );
         break;
+    case 'questions-for-joining':
+        $page = array(
+            "title"=>"Вопросы по вступлению в масонское братство",
+            "page"=>"php/page/questions-for-joining.php"
+        );
+        break;
 }

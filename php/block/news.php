@@ -6,7 +6,7 @@
                     <div class="paper__item">
                         <div class="paper__box">
                             <h3 class="paper__title">
-                                <a href="#">
+                                <a href="/post.php?page=freemasonry-in-belarus">
                                     Масонство в Беларуси
                                 </a>
                             </h3>
@@ -19,7 +19,7 @@
 
 
                             <div class="wrapperButton wB--right">
-                                <a class="btn btn--news" href="#">Читать подробнее</a>
+                                <a class="btn btn--news" href="/post.php?page=freemasonry-in-belarus">Читать подробнее</a>
                             </div>
                         </div>
 
@@ -29,7 +29,7 @@
                     <div class="paper__item">
                         <div class="paper__box">
                             <h3 class="paper__title">
-                                <a href="#">
+                                <a href="/post.php?page=questions-for-joining">
                                     Вопросы по вступлению <br>в масонское братство
                                 </a>
                             </h3>
@@ -42,7 +42,7 @@
 
 
                             <div class="wrapperButton wB--right">
-                                <a class="btn btn--news" href="#">Читать подробнее</a>
+                                <a class="btn btn--news" href="/post.php?page=questions-for-joining">Читать подробнее</a>
                             </div>
                         </div>
 

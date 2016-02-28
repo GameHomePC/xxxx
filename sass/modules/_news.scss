@@ -94,6 +94,8 @@
         padding: 0 10px 0 0;
         color: #010101;
         text-decoration: none;
+
+        &:hover { text-decoration: underline; }
     }
 }
 

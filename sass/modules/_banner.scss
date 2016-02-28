@@ -25,7 +25,7 @@
     transform: translateY(-50%);
     text-align: center;
     font-size: 72px;
-    line-height: 72px;
+    line-height: 110px;
     color: #fff;
 
     @include breakpointmedia($media-768, 'max-width') {

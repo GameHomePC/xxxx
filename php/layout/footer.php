@@ -14,37 +14,37 @@
 
             <div class="footer__item footer__item--just">
                 <ul class="footerMenu">
-                    <li><a href="#">Главная</a></li>
-                    <li><a href="#">Информация о ложе</a></li>
-                    <li><a href="#">Новости</a></li>
-                    <li><a href="#">Зодческие</a></li>
-                    <li><a href="#">Вопросы и ответы</a></li>
-                    <li><a href="#">Контакты</a></li>
-                    <li><a href="#">Форум</a></li>
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="/post.php?page=information">Информация о ложе</a></li>
+                    <li><a href="/post.php?page=news">Новости</a></li>
+                    <li><a href="/post.php?page=zodcheskie">Зодческие</a></li>
+                    <li><a href="/post.php?page=questions">Вопросы и ответы</a></li>
+                    <li><a href="/post.php?page=contact">Контакты</a></li>
+                    <li><a href="/forum/">Форум</a></li>
                 </ul>
 
                 <ul class="footerMenu">
-                    <li><a href="#">Что такое масонство</a></li>
-                    <li><a href="#">Главные символы</a></li>
-                    <li><a href="#">История масонства</a></li>
-                    <li><a href="#">Цели и принципы</a></li>
-                    <li><a href="#">Правда и неправда</a></li>
-                    <li><a href="#">Словарь терминов</a></li>
-                    <li><a href="#">Вступление в братство</a></li>
+                    <li><a href="/post.php?page=what">Что такое масонство</a></li>
+                    <li><a href="/post.php?page=main-characters">Главные символы</a></li>
+                    <li><a href="/post.php?page=history">История масонства</a></li>
+                    <li><a href="/post.php?page=principles">Цели и принципы</a></li>
+                    <li><a href="/post.php?page=true-false-freemasonry">Правда и неправда</a></li>
+                    <li><a href="/post.php?page=glossary">Словарь терминов</a></li>
+                    <li><a href="/post.php?page=questions-for-joining">Вступление в братство</a></li>
                 </ul>
 
                 <ul class="footerMenu">
-                    <li><a href="#">Российское масонство</a></li>
-                    <li><a href="#">Конституция</a></li>
-                    <li><a href="#">Мировое признание</a></li>
-                    <li><a href="#">Реестр лож</a></li>
-                    <li><a href="#">СМИ о ВЛР</a></li>
+                    <li><a href="/post.php?page=russian-freemasonry">Российское масонство</a></li>
+                    <li><a href="/post.php?page=constitution">Конституция</a></li>
+                    <li><a href="/post.php?page=recognition">Мировое признание</a></li>
+                    <li><a href="/post.php?page=register">Реестр лож</a></li>
+                    <li><a href="/post.php?page=media-about">СМИ о ВЛР</a></li>
                 </ul>
             </div>
         </div>
 
         <div class="footer__bottom">
-            <span class="footer__copy">© 2010-2016 Великая Ложа России, Д.Л.Белый Рыцарь</span>
+            <span class="footer__copy">© 2010-2016 Великая Ложа России Д.Л. Белый Рыцарь</span>
         </div>
     </div>
 </footer>
