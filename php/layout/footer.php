@@ -15,30 +15,30 @@
             <div class="footer__item footer__item--just">
                 <ul class="footerMenu">
                     <li><a href="/">Главная</a></li>
-                    <li><a href="/post.php?page=information">Информация о ложе</a></li>
-                    <li><a href="/post.php?page=news">Новости</a></li>
-                    <li><a href="/post.php?page=zodcheskie">Зодческие</a></li>
-                    <li><a href="/post.php?page=questions">Вопросы и ответы</a></li>
-                    <li><a href="/post.php?page=contact">Контакты</a></li>
+                    <li><a href="/information.html">Информация о ложе</a></li>
+                    <li><a href="/news.html">Новости</a></li>
+                    <li><a href="/zodcheskie.html">Зодческие</a></li>
+                    <li><a href="/questions.html">Вопросы и ответы</a></li>
+                    <li><a href="/contact.html">Контакты</a></li>
                     <li><a href="/forum/">Форум</a></li>
                 </ul>
 
                 <ul class="footerMenu">
-                    <li><a href="/post.php?page=what">Что такое масонство</a></li>
-                    <li><a href="/post.php?page=main-characters">Главные символы</a></li>
-                    <li><a href="/post.php?page=history">История масонства</a></li>
-                    <li><a href="/post.php?page=principles">Цели и принципы</a></li>
-                    <li><a href="/post.php?page=true-false-freemasonry">Правда и неправда</a></li>
-                    <li><a href="/post.php?page=glossary">Словарь терминов</a></li>
-                    <li><a href="/post.php?page=questions-for-joining">Вступление в братство</a></li>
+                    <li><a href="/what.html">Что такое масонство</a></li>
+                    <li><a href="/main-characters.html">Главные символы</a></li>
+                    <li><a href="/history.html">История масонства</a></li>
+                    <li><a href="/principles.html">Цели и принципы</a></li>
+                    <li><a href="/true-false-freemasonry.html">Правда и неправда</a></li>
+                    <li><a href="/glossary.html">Словарь терминов</a></li>
+                    <li><a href="/questions-for-joining.html">Вступление в братство</a></li>
                 </ul>
 
                 <ul class="footerMenu">
-                    <li><a href="/post.php?page=russian-freemasonry">Российское масонство</a></li>
-                    <li><a href="/post.php?page=constitution">Конституция</a></li>
-                    <li><a href="/post.php?page=recognition">Мировое признание</a></li>
-                    <li><a href="/post.php?page=register">Реестр лож</a></li>
-                    <li><a href="/post.php?page=media-about">СМИ о ВЛР</a></li>
+                    <li><a href="/russian-freemasonry.html">Российское масонство</a></li>
+                    <li><a href="/constitution.html">Конституция</a></li>
+                    <li><a href="/recognition.html">Мировое признание</a></li>
+                    <li><a href="/register.html">Реестр лож</a></li>
+                    <li><a href="/media-about.html">СМИ о ВЛР</a></li>
                 </ul>
             </div>
         </div>
