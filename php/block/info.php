@@ -1,12 +1,12 @@
 <section class="info">
     <div class="wrapper">
         <div class="news">
-            <a href="/post.php?page=what" class="news__item">
+            <a href="/what.html" class="news__item">
                 <img src="images/news-1.jpg" alt="">
                 <div class="news__title">Что такое масонство?</div>
             </a>
 
-            <a href="/post.php?page=freemasonry-in-belarus" class="news__item">
+            <a href="/freemasonry-in-belarus.html" class="news__item">
                 <img src="images/news-2.jpg" alt="">
                 <div class="news__title">Масонство в Беларуси</div>
             </a>
