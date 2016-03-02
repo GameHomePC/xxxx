@@ -8,10 +8,16 @@ function Constructor() {
         this.banner = jQuery(config.banner);
         this.body = jQuery('body');
         this.overMain = jQuery(config.overMain);
+        this.menuMin = jQuery(config.menuMin);
+        this.glossary = jQuery(config.glossary);
+        this.boxFixed = jQuery(config.boxFixed);
 
         if(this.menu.length) { this.getMenu(); }
         if(this.header.length) { this.getScroll(); }
         if(this.menuMobileLink.length) { this.getMobileMenu(); }
+        if(this.menuMin.length) { this.getMenuMin(); }
+        if(this.glossary.length) { this.getGlossary(); }
+        if(this.boxFixed.length) { this.getBoxFixed(); }
     };
 
     this.getMenu = function() {
@@ -110,6 +116,74 @@ function Constructor() {
             return false;
         });
     };
+
+    this.getMenuMin = function() {
+        var menu = this.menuMin;
+
+        menu.find('a').each(function() {
+            var self = jQuery(this),
+                selfUrl = self.attr('href'),
+                localHref = document.location.pathname;
+
+            if(selfUrl === localHref) {
+                self.parents('.menuM__item').addClass('active');
+                self.parents('.menuM__sub').show();
+                self.addClass('active');
+            }
+        });
+
+        menu.on('click', '.menuM__item > a', function() {
+            var self = jQuery(this),
+                selfParent = self.parent(),
+                selfSub = self.next();
+
+            if(!selfParent.hasClass('active')) {
+                menu.find('.menuM__item').removeClass('active');
+                menu.find('.menuM__sub').slideUp();
+                selfParent.addClass('active');
+                selfSub.slideDown();
+            } else {
+                selfParent.removeClass('active');
+                selfSub.slideUp();
+            }
+
+            return false;
+        });
+    };
+
+    this.getGlossary = function() {
+        var glossary = this.glossary,
+            glossaryContent = glossary.find('.glossary__item'),
+            _this = this;
+
+        /* if letters */
+        glossary.find('.glossary__letters a').each(function(i, e) {
+            var self = jQuery(this),
+                selfText = self.text(),
+                glossaryContentEq = glossaryContent.eq(i).find('.glossary__title').text();
+
+            if(selfText !== glossaryContentEq) {
+                self.hide();
+            }
+        });
+
+
+        glossary.on('click', '.glossary__letters a', function() {
+            var self = $(this),
+                selfText = self.text(),
+                selfTo = jQuery('[data-lesson="' + selfText + '"]').offset().top;
+
+            jQuery('html, body').animate({
+                scrollTop: selfTo - 20
+            }, 1000);
+
+            return false;
+        });
+    };
+
+    this.getBoxFixed = function() {
+
+    }
 }
 
 (function($j) {
@@ -125,7 +199,10 @@ function Constructor() {
             menuMobileLink: '.menu-mobileLink',
             menuMobile: '.menuMobile',
             menuMobile__sub: '.menuMobile__sub > a',
-            overMain: '.over-main'
+            overMain: '.over-main',
+            menuMin: '#menuMin',
+            glossary: '#glossary',
+            boxFixed: '#boxFixed'
         });
 
     });

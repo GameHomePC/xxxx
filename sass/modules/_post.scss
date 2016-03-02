@@ -68,22 +68,24 @@
     }
 
     ul {
-        list-style-type: disc;
-        margin-left: 20px;
+        padding-left: 30px;
         margin-bottom: 10px;
     }
 
     li {
+        position: relative;
         font-family: $Arial;
         font-size: 14px;
         line-height: 18px;
         color: #b1b2b2;
-        margin-bottom: 10px;
+        margin-bottom: 3px;
 
-        @include breakpointmedia($media-480, 'max-width') {
-            font-size: 13px;
-            line-height: 16px;
-            margin-bottom: 10px;
+        &:before {
+            position: absolute;
+            top: 7px;
+            left: -15px;
+            @include sprite($list-icon);
+            content: "";
         }
 
         a {
@@ -92,5 +94,56 @@
 
             &:hover { text-decoration: underline; }
         }
+
+        @include breakpointmedia($media-480, 'max-width') {
+            font-size: 13px;
+            line-height: 16px;
+            margin-bottom: 10px;
+        }
     }
 }
+
+/* glossary */
+.glossary {
+    padding-top: 20px;
+}
+
+.glossary__letters {
+    text-align: center;
+    font-size: 0;
+    margin-bottom: 24px;
+
+    a {
+        display: inline-block;
+        vertical-align: top;
+        font-family: $ArialNarrow;
+        font-size: 20px;
+        line-height: 18px;
+        text-decoration: none;
+        color: #ff9a4b;
+        margin-right: 8px;
+
+        &:last-of-type { margin-right: 0; }
+        &:hover { text-decoration: underline; }
+    }
+}
+
+.glossary__content {
+
+}
+
+.glossary__item {
+    margin-bottom: 22px;
+
+    &:last-of-type { margin-bottom: 0; }
+}
+
+.glossary__title {
+    font-family: $ArialNarrow;
+    font-size: 20px;
+    line-height: 18px;
+    @include letter-spacing(100, 20);
+    color: #ffffff;
+    margin-bottom: 13px;
+}
+
