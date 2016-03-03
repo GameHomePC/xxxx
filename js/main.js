@@ -11,6 +11,7 @@ function Constructor() {
         this.menuMin = jQuery(config.menuMin);
         this.glossary = jQuery(config.glossary);
         this.boxFixed = jQuery(config.boxFixed);
+        this.newsList = jQuery(config.newsList);
 
         if(this.menu.length) { this.getMenu(); }
         if(this.header.length) { this.getScroll(); }
@@ -117,8 +118,54 @@ function Constructor() {
         });
     };
 
+    this.getGlossary = function() {
+        var _this = this,
+            glossary = this.glossary,
+            glossaryContent = glossary.find('.glossary__item'),
+            glossaryLetters = glossary.find('.glossary__letters'),
+            glossaryLettersLink = glossaryLetters.children();
+
+        /* if letters */
+        glossaryContent.find('.glossary__title').each(function(i, e) {
+            var self = jQuery(this),
+                selfText = self.data('lesson');
+
+            glossaryLettersLink.each(function(il, el) {
+                var selfLink = jQuery(this),
+                    selfLinkLetter = selfLink.text();
+
+                if(selfText === selfLinkLetter) {
+                    selfLink.addClass('active');
+                }
+
+            });
+        });
+
+
+        glossary.on('click', '.glossary__letters a', function() {
+            var self = $(this),
+                selfText = self.text(),
+                selfTo = jQuery('[data-lesson="' + selfText + '"]').offset().top;
+
+            jQuery('html, body').animate({
+                scrollTop: selfTo - 20
+            }, 1000);
+
+            return false;
+        });
+    };
+
+    this.getBoxFixed = function() {
+        var _this = this;
+
+        jQuery(window).load(function() {
+            _this.initScrollBlock();
+        });
+    };
+
     this.getMenuMin = function() {
-        var menu = this.menuMin;
+        var _this = this,
+            menu = this.menuMin;
 
         menu.find('a').each(function() {
             var self = jQuery(this),
@@ -139,51 +186,60 @@ function Constructor() {
 
             if(!selfParent.hasClass('active')) {
                 menu.find('.menuM__item').removeClass('active');
-                menu.find('.menuM__sub').slideUp();
+                menu.find('.menuM__sub').slideUp(300);
                 selfParent.addClass('active');
-                selfSub.slideDown();
+
+                selfSub.slideDown({
+                    duration: 300,
+                    progress: function() {
+                        _this.initScrollBlock();
+                    }
+                });
+
             } else {
                 selfParent.removeClass('active');
-                selfSub.slideUp();
+
+                selfSub.slideUp({
+                    duration: 300,
+                    progress: function() {
+                        _this.initScrollBlock();
+                    }
+                });
+
             }
 
             return false;
         });
     };
 
-    this.getGlossary = function() {
-        var glossary = this.glossary,
-            glossaryContent = glossary.find('.glossary__item'),
-            _this = this;
+    this.initScrollBlock = function() {
+        if(!Modernizr.touch) {
+            var _this = this,
+                block = this.boxFixed,
+                header = this.header.outerHeight(true);
 
-        /* if letters */
-        glossary.find('.glossary__letters a').each(function(i, e) {
-            var self = jQuery(this),
-                selfText = self.text(),
-                glossaryContentEq = glossaryContent.eq(i).find('.glossary__title').text();
+            jQuery(window).on('scroll', function() {
+                var scrollTop = jQuery(this).scrollTop(),
+                    blockHeight = block.outerHeight(true) + 20,
+                    positionNewsListTop = _this.newsList.offset().top,
+                    scrollBottom = (scrollTop + blockHeight) + 40;
 
-            if(selfText !== glossaryContentEq) {
-                self.hide();
-            }
-        });
+                block.parent().css({ height: block.outerHeight(true) });
 
+                if(scrollTop >= header) {
 
-        glossary.on('click', '.glossary__letters a', function() {
-            var self = $(this),
-                selfText = self.text(),
-                selfTo = jQuery('[data-lesson="' + selfText + '"]').offset().top;
+                    if(scrollBottom >= positionNewsListTop) {
+                        block.addClass('absolute').css({ top: positionNewsListTop - blockHeight - (header + 40)});
+                    } else {
+                        block.addClass('absolute').css({ top: scrollTop - header });
+                    }
 
-            jQuery('html, body').animate({
-                scrollTop: selfTo - 20
-            }, 1000);
-
-            return false;
-        });
+                } else {
+                    block.removeClass('absolute').css({ top: 0 });
+                }
+            }).trigger('scroll');
+        }
     };
-
-    this.getBoxFixed = function() {
-
-    }
 }
 
 (function($j) {
@@ -202,7 +258,8 @@ function Constructor() {
             overMain: '.over-main',
             menuMin: '#menuMin',
             glossary: '#glossary',
-            boxFixed: '#boxFixed'
+            boxFixed: '#boxFixed',
+            newsList: '.newsList'
         });
 
     });

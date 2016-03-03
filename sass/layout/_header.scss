@@ -247,7 +247,6 @@ body {
 .submenu__title {
     display: block;
     position: relative;
-    display: block;
     font-size: 18px;
     color: #ffffff;
     letter-spacing: 0;
@@ -328,7 +327,7 @@ body {
     transition: all 0.2s ease;
     box-sizing: border-box;
 
-    @include breakpointmedia($media-768) {
+    @include breakpointmedia($media-769) {
         html.openMenu & {
             display: none;
         }

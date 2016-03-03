@@ -188,13 +188,13 @@
     .newsTop__item {
         margin-bottom: 22px;
 
+        &:last-of-type { margin-bottom: 0; }
+
         @include breakpointmedia($media-480, 'max-width') {
             margin-bottom: 15px;
             width: 100%;
             padding-left: 0;
             padding-right: 0;
-
-            &:last-of-type { margin-bottom: 0; }
         }
 
         &:hover {
