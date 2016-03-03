@@ -17,13 +17,17 @@
     width: (100% / 3.1);
     text-decoration: none;
 
-    @include breakpointmedia($media-480, 'max-width') {
-        width: 100%;
+    @include breakpointmedia($media-640, 'max-width') {
+        width: 48%;
         margin-bottom: 20px;
 
         &:last-of-type {
             margin-bottom: 0;
         }
+    }
+
+    @include breakpointmedia($media-480, 'max-width') {
+        width: 100%;
     }
 
     &:before {
