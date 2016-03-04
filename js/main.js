@@ -214,26 +214,38 @@ function Constructor() {
         if(!Modernizr.touch) {
             var _this = this,
                 block = this.boxFixed,
-                header = this.header.outerHeight(true);
+                header = this.header.outerHeight(true),
+                padding = 40,
+                headerMP = header - padding;
+
+
+
+            block.css({ width: block.outerWidth(true) });
 
             jQuery(window).on('scroll', function() {
                 var scrollTop = jQuery(this).scrollTop(),
                     blockHeight = block.outerHeight(true) + 20,
                     positionNewsListTop = _this.newsList.offset().top,
-                    scrollBottom = (scrollTop + blockHeight) + 40;
+                    scrollBottom = (scrollTop + blockHeight) + padding;
 
                 block.parent().css({ height: block.outerHeight(true) });
 
                 if(scrollTop >= header) {
 
                     if(scrollBottom >= positionNewsListTop) {
-                        block.addClass('absolute').css({ top: positionNewsListTop - blockHeight - (header + 40)});
+                        block
+                            .removeClass('fixed')
+                            .addClass('absolute')
+                            .css({ top: positionNewsListTop - blockHeight - (header + 40)});
                     } else {
-                        block.addClass('absolute').css({ top: scrollTop - header });
+                        block
+                            .removeClass('absolute')
+                            .addClass('fixed')
+                            .css({ top: header - headerMP });
                     }
 
                 } else {
-                    block.removeClass('absolute').css({ top: 0 });
+                    block.removeClass('absolute fixed').css({ top: 0 });
                 }
             }).trigger('scroll');
         }
