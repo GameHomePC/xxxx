@@ -88,9 +88,10 @@
         padding-top: 2.5px;
         padding-bottom: 2.5px;
 
-        &:hover,
+        &:hover { text-decoration: underline; }
         &.active {
             background: linear-gradient(to left, transparent, rgba(255, 255, 255, 0.3), transparent);
+            text-decoration: none;
         }
     }
 }

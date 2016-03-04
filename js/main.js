@@ -185,8 +185,6 @@ function Constructor() {
                 selfSub = self.next();
 
             if(!selfParent.hasClass('active')) {
-                menu.find('.menuM__item').removeClass('active');
-                menu.find('.menuM__sub').slideUp(300);
                 selfParent.addClass('active');
 
                 selfSub.slideDown({

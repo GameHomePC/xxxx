@@ -89,9 +89,6 @@ img {
 .box__fixed {
     position: relative;
 
-    &.absolute {
-        position: absolute;
-    }
-
-    &.absoluteBotton { position: absolute; bottom: 0; }
+    &.absolute { position: absolute; }
+    &.fixed { position: fixed; }
 }

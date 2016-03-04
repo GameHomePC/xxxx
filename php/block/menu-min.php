@@ -9,13 +9,12 @@
                 <a href="#">Масонство</a>
 
                 <ul class="menuM__sub">
-                    <li><a href="/what.html">Что такое масонство</a></li>
-                    <li><a href="/main-characters.html">Главные сиволы</a></li>
-                    <li><a href="/history.html">История масонства</a></li>
-                    <li><a href="/principles.html">Цели и принципы</a></li>
-                    <li><a href="/true-false-freemasonry.html">Правда и неправда о масонсве</a></li>
+                    <li><a href="/what.html">Что такое Масонство</a></li>
+                    <li><a href="/history.html">История Масонства</a></li>
                     <li><a href="/glossary.html">Словарь терминов</a></li>
-                </ul>
+                    <li><a href="/principles.html">Цели и принципы</a></li>
+                    <li><a href="/main-characters.html">Главные символы</a></li>
+                </ul
             </li>
 
             <li class="menuM__item">
@@ -34,8 +33,11 @@
                 <a href="#">О ложе</a>
 
                 <ul class="menuM__sub">
-                    <li><a href="/questions.html">Вопросы</a></li>
-                    <li><a href="/introduction.html">Как стать масоном</a></li>
+                    <li><a href="/information.html">Подробная информация</a></li>
+                    <li><a href="/news.html">Новости</a></li>
+                    <li><a href="/zodcheskie.html">Зодческие</a></li>
+                    <li><a href="/library.html">Библиотека</a></li>
+                    <li><a href="/contact.html">Контакты</a></li>
                 </ul>
             </li>
         </ul>
