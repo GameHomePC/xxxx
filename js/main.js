@@ -149,7 +149,7 @@ function Constructor() {
 
             jQuery('html, body').animate({
                 scrollTop: selfTo - 20
-            }, 1000);
+            }, 100);
 
             return false;
         });
