@@ -8,10 +8,17 @@ function Constructor() {
         this.banner = jQuery(config.banner);
         this.body = jQuery('body');
         this.overMain = jQuery(config.overMain);
+        this.menuMin = jQuery(config.menuMin);
+        this.glossary = jQuery(config.glossary);
+        this.boxFixed = jQuery(config.boxFixed);
+        this.newsList = jQuery(config.newsList);
 
         if(this.menu.length) { this.getMenu(); }
         if(this.header.length) { this.getScroll(); }
         if(this.menuMobileLink.length) { this.getMobileMenu(); }
+        if(this.menuMin.length) { this.getMenuMin(); }
+        if(this.glossary.length) { this.getGlossary(); }
+        if(this.boxFixed.length) { this.getBoxFixed(); }
     };
 
     this.getMenu = function() {
@@ -110,6 +117,139 @@ function Constructor() {
             return false;
         });
     };
+
+    this.getGlossary = function() {
+        var _this = this,
+            glossary = this.glossary,
+            glossaryContent = glossary.find('.glossary__item'),
+            glossaryLetters = glossary.find('.glossary__letters'),
+            glossaryLettersLink = glossaryLetters.children();
+
+        /* if letters */
+        glossaryContent.find('.glossary__title').each(function(i, e) {
+            var self = jQuery(this),
+                selfText = self.data('lesson');
+
+            glossaryLettersLink.each(function(il, el) {
+                var selfLink = jQuery(this),
+                    selfLinkLetter = selfLink.text();
+
+                if(selfText === selfLinkLetter) {
+                    selfLink.addClass('active');
+                }
+
+            });
+        });
+
+
+        glossary.on('click', '.glossary__letters a', function() {
+            var self = $(this),
+                selfText = self.text(),
+                selfTo = jQuery('[data-lesson="' + selfText + '"]').offset().top;
+
+            jQuery('html, body').animate({
+                scrollTop: selfTo - 20
+            }, 100);
+
+            return false;
+        });
+    };
+
+    this.getBoxFixed = function() {
+        var _this = this;
+
+        jQuery(window).load(function() {
+            _this.initScrollBlock();
+        });
+    };
+
+    this.getMenuMin = function() {
+        var _this = this,
+            menu = this.menuMin;
+
+        menu.find('a').each(function() {
+            var self = jQuery(this),
+                selfUrl = self.attr('href'),
+                localHref = document.location.pathname;
+
+            if(selfUrl === localHref) {
+                self.parents('.menuM__item').addClass('active');
+                self.parents('.menuM__sub').show();
+                self.addClass('active');
+            }
+        });
+
+        menu.on('click', '.menuM__item > a', function() {
+            var self = jQuery(this),
+                selfParent = self.parent(),
+                selfSub = self.next();
+
+            if(!selfParent.hasClass('active')) {
+                selfParent.addClass('active');
+
+                selfSub.slideDown({
+                    duration: 300,
+                    progress: function() {
+                        _this.initScrollBlock();
+                    }
+                });
+
+            } else {
+                selfParent.removeClass('active');
+
+                selfSub.slideUp({
+                    duration: 300,
+                    progress: function() {
+                        _this.initScrollBlock();
+                    }
+                });
+
+            }
+
+            return false;
+        });
+    };
+
+    this.initScrollBlock = function() {
+        if(!Modernizr.touch) {
+            var _this = this,
+                block = this.boxFixed,
+                header = this.header.outerHeight(true),
+                padding = 40,
+                headerMP = header - padding;
+
+
+
+            block.css({ width: block.outerWidth(true) });
+
+            jQuery(window).on('scroll', function() {
+                var scrollTop = jQuery(this).scrollTop(),
+                    blockHeight = block.outerHeight(true) + 20,
+                    positionNewsListTop = _this.newsList.offset().top,
+                    scrollBottom = (scrollTop + blockHeight) + padding;
+
+                block.parent().css({ height: block.outerHeight(true) });
+
+                if(scrollTop >= header) {
+
+                    if(scrollBottom >= positionNewsListTop) {
+                        block
+                            .removeClass('fixed')
+                            .addClass('absolute')
+                            .css({ top: positionNewsListTop - blockHeight - (header + 40)});
+                    } else {
+                        block
+                            .removeClass('absolute')
+                            .addClass('fixed')
+                            .css({ top: header - headerMP });
+                    }
+
+                } else {
+                    block.removeClass('absolute fixed').css({ top: 0 });
+                }
+            }).trigger('scroll');
+        }
+    };
 }
 
 (function($j) {
@@ -125,7 +265,11 @@ function Constructor() {
             menuMobileLink: '.menu-mobileLink',
             menuMobile: '.menuMobile',
             menuMobile__sub: '.menuMobile__sub > a',
-            overMain: '.over-main'
+            overMain: '.over-main',
+            menuMin: '#menuMin',
+            glossary: '#glossary',
+            boxFixed: '#boxFixed',
+            newsList: '.newsList'
         });
 
     });
