@@ -36,6 +36,41 @@
         }
     }
 
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 30px;
+        color: #ffffff;
+        margin-bottom: 10px;
+
+        @include breakpointmedia($media-480, 'max-width') {
+            font-size: 14px;
+            line-height: 22px;
+            margin-bottom: 10px;
+        }
+    }
+
+    h5 {
+        font-family: $Arial;
+        font-size: 14px;
+        line-height: 18px;
+        color: #fff;
+        margin-bottom: 10px;
+
+        @include breakpointmedia($media-480, 'max-width') {
+            font-size: 13px;
+            line-height: 16px;
+            margin-bottom: 10px;
+        }
+
+        a {
+            color: #ff9a4b;
+            text-decoration: none;
+
+            &:hover { text-decoration: underline; }
+        }
+    }
+
     p {
         font-family: $Arial;
         font-size: 14px;
@@ -70,6 +105,31 @@
     ul {
         padding-left: 30px;
         margin-bottom: 10px;
+
+        li {
+            &:before {
+                top: 7px;
+                left: -15px;
+                @include sprite($list-icon);
+            }
+        }
+    }
+
+    ol {
+        padding-left: 30px;
+        margin-bottom: 10px;
+        counter-reset: listOl;
+
+        li {
+            &:before {
+                top: 0;
+                left: -30px;
+                counter-increment: listOl;
+                text-align: right;
+                width: 20px;
+                content: counter(listOl)'.';
+            }
+        }
     }
 
     li {
@@ -82,9 +142,6 @@
 
         &:before {
             position: absolute;
-            top: 7px;
-            left: -15px;
-            @include sprite($list-icon);
             content: "";
         }
 
@@ -99,6 +156,32 @@
             font-size: 13px;
             line-height: 16px;
             margin-bottom: 10px;
+        }
+    }
+
+    table {
+        width: 100%;
+        margin-bottom: 10px;
+
+        td {
+            padding: 3px;
+            font-family: $Arial;
+            font-size: 14px;
+            line-height: 18px;
+            color: #b1b2b2;
+
+            @include breakpointmedia($media-480, 'max-width') {
+                font-size: 13px;
+                line-height: 16px;
+                margin-bottom: 10px;
+            }
+
+            a {
+                color: #ff9a4b;
+                text-decoration: none;
+
+                &:hover { text-decoration: underline; }
+            }
         }
     }
 }

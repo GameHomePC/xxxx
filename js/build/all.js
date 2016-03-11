@@ -14907,7 +14907,7 @@ function Constructor() {
             }
         });
 
-        menu.on('click', '.menuM__SubMenu > a', function() {
+        menu.on('click', '.menuM_SubMenu > a', function() {
             var self = jQuery(this),
                 selfParent = self.parent(),
                 selfSub = self.next();
