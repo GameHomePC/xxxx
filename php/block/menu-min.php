@@ -40,6 +40,9 @@
                     <li><a href="/contact.html">Контакты</a></li>
                 </ul>
             </li>
+
+            <li class="menuM__item menuM__noSubMenu"><a href="/questions.html">Вопросы</a></li>
+            <li class="menuM__item menuM__noSubMenu"><a href="/introduction.html">Вступление</a></li>
         </ul>
     </div>
 </div>

@@ -65,6 +65,12 @@
             }
         }
     }
+
+    &.menuM__noSubMenu {
+        a:before {
+            display: none;
+        }
+    }
 }
 
 .menuM__sub {
