@@ -70,6 +70,13 @@
         a:before {
             display: none;
         }
+
+        &.active {
+            a {
+                background: linear-gradient(to left, transparent, rgba(255, 255, 255, 0.3), transparent);
+                text-decoration: none;
+            }
+        }
     }
 }
 

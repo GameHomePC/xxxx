@@ -5,7 +5,7 @@
         </div>
 
         <ul class="menuM" id="menuMin">
-            <li class="menuM__item">
+            <li class="menuM__item menuM__SubMenu">
                 <a href="#">Масонство</a>
 
                 <ul class="menuM__sub">
@@ -17,7 +17,7 @@
                 </ul
             </li>
 
-            <li class="menuM__item">
+            <li class="menuM__item menuM__SubMenu">
                 <a href="#">ВЛР</a>
 
                 <ul class="menuM__sub">
@@ -29,7 +29,7 @@
                 </ul>
             </li>
 
-            <li class="menuM__item">
+            <li class="menuM__item menuM__SubMenu">
                 <a href="#">О ложе</a>
 
                 <ul class="menuM__sub">

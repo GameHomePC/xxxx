@@ -137,7 +137,6 @@ function Constructor() {
                 if(selfText === selfLinkLetter) {
                     selfLink.addClass('active');
                 }
-
             });
         });
 
@@ -179,7 +178,7 @@ function Constructor() {
             }
         });
 
-        menu.on('click', '.menuM__item > a', function() {
+        menu.on('click', '.menuM__SubMenu > a', function() {
             var self = jQuery(this),
                 selfParent = self.parent(),
                 selfSub = self.next();
@@ -217,8 +216,6 @@ function Constructor() {
                 header = this.header.outerHeight(true),
                 padding = 40,
                 headerMP = header - padding;
-
-
 
             block.css({ width: block.outerWidth(true) });
 

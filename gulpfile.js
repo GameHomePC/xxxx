@@ -1,17 +1,20 @@
-var gulp = require('gulp');
-var sourcemaps = require('gulp-sourcemaps');
-var postcss = require('gulp-postcss');
-var autoprefixer = require('autoprefixer');
-var sass = require('gulp-sass');
-var spritesmith = require('gulp.spritesmith');
-var browserSync = require('browser-sync').create();
-var imagemin = require('gulp-imagemin');
-var pngquant = require('imagemin-pngquant');
-var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var minifyCss = require('gulp-minify-css');
+"use strict";
 
-var conf = {
+let gulp = require('gulp'),
+    sourcemaps = require('gulp-sourcemaps'),
+    postcss = require('gulp-postcss'),
+    autoprefixer = require('autoprefixer'),
+    sass = require('gulp-sass'),
+    spritesmith = require('gulp.spritesmith'),
+    browserSync = require('browser-sync').create(),
+    imagemin = require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant'),
+    concat = require('gulp-concat'),
+    uglify = require('gulp-uglify'),
+    minifyCss = require('gulp-minify-css'),
+    gutil = require('gulp-util');
+
+let conf = {
     localServer: 'xxxx.loc',
     sass: {
         watch: './sass/**/*.scss',
@@ -45,10 +48,7 @@ var conf = {
 // ==============
 gulp.task('scripts', function() {
     return gulp.src(conf.scripts.src)
-        //.pipe(sourcemaps.init())
         .pipe(concat('all.js'))
-        .pipe(uglify())
-        //.pipe(sourcemaps.write())
         .pipe(gulp.dest(conf.scripts.dest))
         .pipe(browserSync.reload({stream: true}));
 });
