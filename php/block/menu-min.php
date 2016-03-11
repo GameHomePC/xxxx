@@ -1,7 +1,7 @@
 <div class="menuMin">
     <div class="menuMin__wrapper">
         <div class="menuMin__title">
-            Д.Л. “БЕЛЫЙ РЫЦАРЬ”
+            “БЕЛЫЙ РЫЦАРЬ”
         </div>
 
         <ul class="menuM" id="menuMin">
