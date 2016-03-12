@@ -372,7 +372,7 @@ function template_body_below()
 	// Show the "Powered by" and "Valid" logos, as well as the copyright. Remember, the copyright must be somewhere!
 	echo '<a href="#" class="scroll-to-top hidden-print"><i class="fa fa-chevron-up fa-lg"></i></a></div>';
 
-    include "./../../../php/layout/footer.php";
+    include __DIR__ . "/../../php/layout/footer.php";
 
     echo __DIR__;
 }
