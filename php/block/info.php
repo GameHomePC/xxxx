@@ -6,7 +6,7 @@
                 <div class="news__title">Что такое масонство?</div>
             </a>
 
-            <a href="/freemasonry-in-belarus.html" class="news__item">
+            <a href="/principles.html" class="news__item">
                 <img src="images/news-2.jpg" alt="">
                 <div class="news__title">Масонство в Беларуси</div>
             </a>
