@@ -31,6 +31,13 @@
                 <a href="/main-characters.html" class="menuMobileSubmenu__title">Главные символы</a>
                 <p>Главные масонские символы, знаки масонства</p>
             </li>
+
+            <li>
+                <a href="/what-is-a-freemason.html">
+                    <span class="submenu__title">Кто такой масон?</span>
+                    <span class="submenu__description">Каждый человек несет личную ответственность за весь этот мир перед Богом, а потому должен стараться сделать его лучше.</span>
+                </a>
+            </li>
         </ul>
     </li>
 

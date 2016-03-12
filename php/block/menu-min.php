@@ -14,6 +14,7 @@
                     <li><a href="/glossary.html">Словарь терминов</a></li>
                     <li><a href="/principles.html">Цели и принципы</a></li>
                     <li><a href="/main-characters.html">Главные символы</a></li>
+                    <li><a href="/what-is-a-freemason.html">Кто такой масон?</a></li>
                 </ul
             </li>
 

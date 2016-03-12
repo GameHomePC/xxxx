@@ -100,6 +100,12 @@ switch($_GET["page"]) {
             "page"=>"php/page/on-the-bed/main-characters.php"
         );
         break;
+    case 'what-is-a-freemason':
+        $page = array(
+            "title"=>"Кто такой масон?",
+            "page"=>"php/page/on-the-bed/what-is-a-freemason.php"
+        );
+        break;
 
     /* level 1 */
     case 'questions':
