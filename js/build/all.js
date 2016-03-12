@@ -14986,7 +14986,7 @@ function Constructor() {
         var global = new Constructor();
 
         global.initialize({
-            menu: '#menu',
+            menu: '#menuDesktop',
             header: '#headerMain',
             menuMobileLink: '.menu-mobileLink',
             menuMobile: '.menuMobile',

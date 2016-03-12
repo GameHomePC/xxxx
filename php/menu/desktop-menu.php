@@ -1,5 +1,5 @@
 <nav class="menu">
-    <ul class="menu-desktop" id="menu">
+    <ul class="menu-desktop" id="menuDesktop">
         <li class="menu__item"><a href="/">Главная</a></li>
         <li class="menu__item menu__sub">
             <a href="#">
