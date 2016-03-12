@@ -1,12 +1,4 @@
 <h1>Контакты</h1>
 
-<!--
-Использовать теги
-
-Обзац:
-<p>Здесь текст</p>
-
-Изображение:
-<img src="" alt="Название картинки" >
--->
-<p>Здесь будет текст</p>
+<p>Наш электронный адрес: <a href="mailto:mail@freemason.by">mail@freemason.by</a></p>
+<p>Наш форум: <a target="_blank" href="http://projectx.klochkoff.ru/forum/">projectx.klochkoff.ru</a></p>
