@@ -1,6 +1,6 @@
 <?php include "php/menu/mobile-menu.php"; ?>
 
-<header class="header" id="header">
+<header class="headerMain" id="headerMain">
     <div class="wrapper">
         <div class="logo">
             <a href="/">

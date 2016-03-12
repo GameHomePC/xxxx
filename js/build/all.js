@@ -14987,7 +14987,7 @@ function Constructor() {
 
         global.initialize({
             menu: '#menu',
-            header: '#header',
+            header: '#headerMain',
             menuMobileLink: '.menu-mobileLink',
             menuMobile: '.menuMobile',
             menuMobile__sub: '.menuMobile__sub > a',

@@ -1,4 +1,4 @@
-.header {
+.headerMain {
     position: fixed;
     background: #0a0807;
     left: 0;
@@ -15,7 +15,7 @@
 
 body {
     &.activeScroll {
-        .header {
+        .headerMain {
             position: fixed;
             transform: translateY(-54px);
         }

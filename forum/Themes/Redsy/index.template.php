@@ -88,7 +88,9 @@ function template_html_above()
 	echo '
 	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/bootstrap.css?fin20" />
 	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/font-awesome.css?fin20" />
-	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/index', $context['theme_variant'], '.css?fin20" />';
+	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/index', $context['theme_variant'], '.css?fin20" />
+	<link rel="stylesheet" type="text/css" href="', $settings['theme_url'], '/css/main.css?fin20" />';
+
 
 	// Some browsers need an extra stylesheet due to bugs/compatibility issues.
 	foreach (array('ie7', 'ie6', 'webkit') as $cssfix)
@@ -224,9 +226,11 @@ function template_body_above()
 {
 	global $context, $settings, $options, $scripturl, $txt, $modSettings;
 
-	echo'
-<div id="wrapper">
-	<nav class="navbar navbar-default ', !empty($settings['redsy_navbar']) ? 'navbar-fixed-top' :  'navbar-static-top' ,'">
+	echo'<div id="wrapper">';
+
+    include "/../../php/layout/header.php";
+
+	echo '<nav class="navbar navbar-default ', !empty($settings['redsy_navbar']) ? 'navbar-fixed-top' :  'navbar-static-top' ,'">
 		<div class="container">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
@@ -363,52 +367,12 @@ function template_body_below()
 {
 	global $context, $settings, $options, $scripturl, $txt, $modSettings;
 
-	echo '
-		</div>
-	</div></div>';
+	echo '</div></div></div>';
 
 	// Show the "Powered by" and "Valid" logos, as well as the copyright. Remember, the copyright must be somewhere!
-	echo '
-	<footer><div class="container">
-		<ul class="social">
-			<li>&nbsp;</li>';
-			if(!empty($settings['facebook_check']))
-			echo'
-			<li>
-				<a href="', !empty($settings['facebook_text']) ? $settings['facebook_text'] : 'http://www.facebook.com ' ,'" title="', $txt['rs_facebook'], '"><i class="fa fa-facebook fa-2x"></i></a>
-			</li>';
-			if(!empty($settings['twitter_check']))
-			echo'			
-			<li>
-				<a href="', !empty($settings['twitter_text']) ? $settings['twitter_text'] : 'http://www.twitter.com' ,'" title="', $txt['rs_twitter'], '"><i class="fa fa-twitter fa-2x"></i></a>
-			</li>';
-			if(!empty($settings['youtube_check']))
-			echo'
-			<li>
-				<a href="', !empty($settings['youtube_text']) ? $settings['youtube_text'] : 'http://www.youtube.com' ,'" title="', $txt['rs_youtube'], '"><i class="fa fa-youtube fa-2x"></i></a>
-			</li>';
-			if(!empty($settings['rss_check']))
-			echo'
-			<li>
-				<a href="', !empty($settings['rss_text']) ? $settings['rss_text'] : $scripturl .'?action=.xml;type=rss' ,'" title="', $txt['rs_rss'], '"><i class="fa fa-rss fa-2x"></i></a>
-			</li>';
-			echo'
-		</ul>
-		<ul class="reset">
-			<li>', theme_copyright(), '</li>
-			<li>Theme by <a href="http://smftricks.com/">SMFTricks</a></li>
-			<li>', !empty($settings['redsy_copyright']) ? $settings['redsy_copyright'] : $context['forum_name'] .' &copy;' ,'</li>
-		</ul>';
+	echo '<a href="#" class="scroll-to-top hidden-print"><i class="fa fa-chevron-up fa-lg"></i></a></div>';
 
-	// Show the load time?
-	if ($context['show_load_time'])
-		echo '
-		<p>', $txt['page_created'], $context['load_time'], $txt['seconds_with'], $context['load_queries'], $txt['queries'], '</p>';
-
-	echo '
-	</div></footer>
-	<a href="#" class="scroll-to-top hidden-print"><i class="fa fa-chevron-up fa-lg"></i></a>
-</div>';
+    include "/../../php/layout/footer.php";
 }
 
 function template_html_below()

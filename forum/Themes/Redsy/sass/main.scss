@@ -1,0 +1,17 @@
+@import "../../../../sass/vars";
+@import "../../../../sass/mixin/mixin";
+@import "../../../../sass/layout/header";
+@import "../../../../sass/layout/footer";
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+footer {
+    padding: 0;
+}
+
+@include footer-item(378px, 'div#wrapper', '.footer');
