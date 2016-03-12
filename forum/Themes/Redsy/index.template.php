@@ -228,7 +228,7 @@ function template_body_above()
 
 	echo'<div id="wrapper">';
 
-    include "/../../php/layout/header.php";
+    include "./../../php/layout/header.php";
 
 	echo '<nav class="navbar navbar-default ', !empty($settings['redsy_navbar']) ? 'navbar-fixed-top' :  'navbar-static-top' ,'">
 		<div class="container">
@@ -372,7 +372,7 @@ function template_body_below()
 	// Show the "Powered by" and "Valid" logos, as well as the copyright. Remember, the copyright must be somewhere!
 	echo '<a href="#" class="scroll-to-top hidden-print"><i class="fa fa-chevron-up fa-lg"></i></a></div>';
 
-    include "/../../php/layout/footer.php";
+    include "./../../../php/layout/footer.php";
 }
 
 function template_html_below()
