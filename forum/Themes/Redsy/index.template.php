@@ -373,6 +373,8 @@ function template_body_below()
 	echo '<a href="#" class="scroll-to-top hidden-print"><i class="fa fa-chevron-up fa-lg"></i></a></div>';
 
     include "./../../../php/layout/footer.php";
+
+    echo __DIR__;
 }
 
 function template_html_below()
