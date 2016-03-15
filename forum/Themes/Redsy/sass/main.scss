@@ -30,15 +30,14 @@ html {
     }
 }
 
-.wrapper {
-    margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+body {
+    font-family: $Raleway;
+}
 
-    @include breakpointmedia(768) {
-        width: 90%;
-        min-width: 768px;
-    }
+.wrapper {
+    max-width: 950px;
+    margin: auto;
+    padding: 0 20px;
 }
 
 footer {
