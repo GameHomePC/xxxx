@@ -775,7 +775,7 @@ h4.catbg, h4.catbg2 , h3.catbg , h3.catbg2 , .table_list tbody.header td.catbg
 }
 h4.titlebg, h3.titlebg
 {
-	background: #e25d5d;
+	background: #000;
 	padding-right: 9px;
 }
 h4.titlebg img.icon
@@ -794,7 +794,7 @@ div.cat_bar
 }
 div.title_bar
 {
-	background: #e25d5d;
+	background: #000;
 	padding-left: 9px;
 	height: 38px;
 	overflow: hidden;
@@ -860,12 +860,12 @@ table.table_list a.collapse
 /* The half-round header bars for some tables. */
 tr.catbg th.first_th,tr.titlebg th.first_th
 {
-	background: #e25d5d;
+	background: #000;
 	border-radius: 4px 0 0 0;
 }
 tr.catbg th.last_th, tr.titlebg th.last_th
 {
-	background: #e25d5d;
+	background: #000;
 	border-radius: 0 4px 0 0;
 }
 .table_grid th.last_th input
@@ -1187,7 +1187,7 @@ span.lowerframe span
 .dropmenu li a.active
 {
     color: #FFF;
-	background: #e25d5d;
+	background: #000;
 	border-radius: 3px;
 }
 .dropmenu li a.active:hover, .dropmenu li:hover a.active
@@ -1197,14 +1197,14 @@ span.lowerframe span
 /* the hover effects */
 .dropmenu li a.firstlevel:hover, .dropmenu li:hover a.firstlevel
 {
-    color: #e25d5d;
+    color: #000;
 	cursor: pointer;
 	text-decoration: none;
 }
 /* the hover effects on level2 and 3 */
 .dropmenu li li a:hover, .dropmenu li li:hover>a
 {
-	background: #e25d5d;
+	background: #000;
 	text-decoration: none;
 }
 .dropmenu li:hover ul ul, .dropmenu li:hover ul ul ul
@@ -1880,7 +1880,7 @@ p#whoisviewing
 	width: auto;
 	padding: 4px;
 	border-radius: 4px 4px 0 0;
-	background: #e25d5d;
+	background: #000;
 	text-align: center;
 }
 .poster h4, .poster h4 a
@@ -3912,7 +3912,7 @@ ul.social li .fa-rss:hover
     width: 45px;
     height: 45px;
     line-height: 45px;
-    background-color: #e25d5d;
+    background-color: #000;
     color: #fff !important;
     text-align: center;
     z-index: 10;
@@ -4067,7 +4067,7 @@ ul.social li .fa-rss:hover
 		top: 100%;
 	}
 }
-.alert-redsy { border-color: #e25d5d;background: #e25d5d;color: #fff; }
+.alert-redsy { border-color: #000;background: #000;color: #fff; }
 .display-info
 {
 	margin: 10px 0;
