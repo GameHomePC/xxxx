@@ -33,10 +33,8 @@
             </li>
 
             <li>
-                <a href="/what-is-a-freemason.html">
-                    <span class="submenu__title">Кто такой масон?</span>
-                    <span class="submenu__description">Каждый человек несет личную ответственность за весь этот мир перед Богом, а потому должен стараться сделать его лучше.</span>
-                </a>
+                <a href="/what-is-a-freemason.html" class="menuMobileSubmenu__title">Кто такой масон?</a>
+                <p>Каждый человек несет личную ответственность за весь этот мир перед Богом, а потому должен стараться сделать его лучше.</p>
             </li>
         </ul>
     </li>

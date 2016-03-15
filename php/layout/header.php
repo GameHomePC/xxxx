@@ -1,6 +1,6 @@
-<?php include "php/menu/mobile-menu.php"; ?>
+<?php include __DIR__ . "/../menu/mobile-menu.php"; ?>
 
-<header class="header" id="header">
+<header class="headerMain" id="headerMain">
     <div class="wrapper">
         <div class="logo">
             <a href="/">
@@ -8,7 +8,7 @@
             </a>
         </div>
 
-        <?php include "php/menu/desktop-menu.php"; ?>
+        <?php include __DIR__ . "/../menu/desktop-menu.php"; ?>
 
         <div class="headerMenu">
             <ul>

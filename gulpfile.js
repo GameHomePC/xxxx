@@ -40,6 +40,13 @@ let conf = {
         watch: './js/*.js',
         src: ['./js/lib/*.js','./js/main.js'],
         dest: "./js/build"
+    },
+    forum: {
+        sass: {
+            src: "./forum/Themes/Redsy/sass/*.scss",
+            dist: "./forum/Themes/Redsy/css/",
+            watch: "./forum/Themes/Redsy/sass/**/*.scss"
+        }
     }
 };
 
@@ -115,11 +122,25 @@ gulp.task('browser-sync', function() {
 });
 
 // ==============
+// forum
+// ==============
+gulp.task('sassForum', function () {
+    gulp.src(conf.forum.sass.src)
+        .pipe(sass().on('error', sass.logError))
+        .pipe(postcss([ autoprefixer({ browsers: ['last 100 version'] }) ]))
+        .pipe(minifyCss())
+        .pipe(gulp.dest(conf.forum.sass.dist))
+        .pipe(browserSync.reload({stream: true}));
+});
+
+
+// ==============
 // watch
 // ==============
 gulp.task('watch', function() {
     gulp.watch(conf.templatesPath).on('change', browserSync.reload);
     gulp.watch(conf.sass.watch, ['sass']);
+    gulp.watch(conf.forum.sass.watch, ['sassForum']);
     gulp.watch(conf.sprite.rootSprite, ['sprite']);
     gulp.watch(conf.scripts.watch, ['scripts']);
 });
@@ -127,4 +148,4 @@ gulp.task('watch', function() {
 // ==============
 // default
 // ==============
-gulp.task('default', ['browser-sync', 'sass', 'watch', 'sprite', 'scripts']);
+gulp.task('default', ['browser-sync', 'sass', 'sassForum', 'watch', 'sprite', 'scripts']);

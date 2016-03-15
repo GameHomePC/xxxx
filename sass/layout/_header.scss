@@ -1,4 +1,4 @@
-.header {
+.headerMain {
     position: fixed;
     background: #0a0807;
     left: 0;
@@ -15,7 +15,7 @@
 
 body {
     &.activeScroll {
-        .header {
+        .headerMain {
             position: fixed;
             transform: translateY(-54px);
         }
@@ -256,6 +256,7 @@ body {
     &:after {
         display: inline-block;
         vertical-align: top;
+        font-family: $FontAwesome;
         margin-left: 22px;
         margin-top: -3px;
         font-size: 24px;

@@ -1,3 +1,4 @@
 node_modules
 .idea
 forum/cache/data_*.php
+forum/Settings.php
