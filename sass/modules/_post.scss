@@ -163,6 +163,12 @@
         width: 100%;
         margin-bottom: 10px;
 
+        &.collum-3 {
+            td {
+                width: (100% / 3);
+            }
+        }
+
         td {
             padding: 3px;
             font-family: $Arial;

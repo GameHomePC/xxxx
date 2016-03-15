@@ -631,82 +631,651 @@
 
 <p>Приведем также список «ложных братьев», о ком пишут в литературе, но которые масонами не были (хотя некоторые по
     своим качествам могли таковыми стать):</p>
-<p>Аджемов М.С. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; А.Ф. Аладьин &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Алексеев М.В. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Андреев Н.Е. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; Апостол П.Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Аргунов А.А.
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Аронсон Г.Я. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Бак Ю. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Барановский В.Л. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; Барк П.Л. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Барышников
-    А.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Барятинский В.В. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Бахрушин Д.П. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp;Белоцветов Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Белоцветов
-    С.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Берберов М.И. &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Бернацкий М.В. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; Бобринский В.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Богданов
-    Б.О. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Боголепов А.А. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Боткин С.Д. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp;Брайкевич М.В. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    Вишницер М.Л. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Воронович Н.В. &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Вяземский Д.Л. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Гавронский Б.О. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp;Гайдар Е.Т. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Гвоздев К.А.
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Гольдштейн М.Л. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Горбачев М.С. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp;Горький Максим &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    Гримм Д.Д. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Гулькевич К.Н. &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Гумилев Н.С. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Гурко В.И. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; Гучков Н.И. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Дживилегов
-    А.К. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Долгоруков П.Д. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ельцин Б.Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp;Зарудный А.С. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp;Зеелер В.Ф. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Иславин Л.В.
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Ичас М.М. &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Карпович М.М. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Кедров М.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp;Кизеветтер А.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Киселев
-    Н.П. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Крымов А.М. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Куваев И.М. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Кутлер Н.Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp;Ломоносов Ю.В. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Лопухин
-    С.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Лорис-Меликов И.Г. &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Львов В.Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; Львов Г.Е. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    Маниковский А.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Меллер-Закомельский В.В. &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; Милюков П.Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; Муравьев Н.К. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Муромцев С.А.
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Набоков К.Д. &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Никитин А.М. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; Нобель Э.Л. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp;Нольде Б.Э. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ольденбург С.Ф.
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Оцуп Н.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Панина С.В. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Петражицкий Л.И. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    Пешков З.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Пешкова Е.П. &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Поклевский-Козелл С.А. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; Поливанов А.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    Полковников Г.П. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Родичев Ф.И. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Рутенберг П.М. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; Сабашников М.В. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Салазкин
-    С.С. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Сватиков С.Г. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Семека А.В. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Стахович М.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp;Струве П.Б. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Ступницкий
-    А.Ф. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Тимашев Н.С. &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Троцкий Л.Д. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; Трубецкой Г.Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    Федоров М.М. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Херасков И.М. &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Хрусталев-Носарь Г.С. &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp;Челноков М.В. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp;Черемисов В.А. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Чубайс А.Б. &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Шидловский С.И. &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Щепкин Д.М. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp;Щепкин Н.Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Элькин
-    Б.И. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;Энгельгардт Б.А. &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Яковлев А.Н. &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Якубович М.П.</p>
+
+<table class="collum-3">
+    <tr>
+        <td>Г.В. Адамович</td>
+        <td>Н.Д. Авксентьев</td>
+        <td>В.К. Агафонов</td>
+    </tr>
+
+    <tr>
+        <td>М.А. Алданов</td>
+        <td>Александр великий князь Александр Михайлович А.С. Альперин</td>
+        <td>Е.В. Aничков</td>
+    </tr>
+    <tr>
+        <td>Г.П. Апухтин</td>
+        <td>В.С. Арсеньев</td>
+        <td>М.И. Багрянский</td>
+    </tr>
+    <tr>
+        <td>В.И. Баженов</td>
+        <td>М.А. Бакунин</td>
+        <td>А.Д. Балашев</td>
+    </tr>
+    <tr>
+        <td>М.П. Баратаев</td>
+        <td>Г.С. Батеньков</td>
+        <td>Н.М. Бахтин</td>
+    </tr>
+    <tr>
+        <td>И.В. Бебер</td>
+        <td>В.В. Беликов</td>
+        <td>Андрей Белый</td>
+    </tr>
+    <tr>
+        <td>А.Х. Бенкендорф</td>
+        <td>Л.Л. Беннингсен</td>
+        <td>Н.А. Бестужев</td>
+    </tr>
+    <tr>
+        <td>А.И. Бибиков</td>
+        <td>И.Я. Билибин</td>
+        <td>П.А. Бобринский</td>
+    </tr>
+    <tr>
+        <td>В.Я. Богучарский (Яковлев)</td>
+        <td>А.Т. Болотов</td>
+        <td>П.А. Болотов</td>
+    </tr>
+    <tr>
+        <td>В.Л. Боровиковский</td>
+        <td>А.И. Браудо</td>
+        <td>А.П. и К.П. Брюлловы</td>
+    </tr>
+    <tr>
+        <td>П.А. Бурышкин</td>
+        <td>Н.П. Василенко</td>
+        <td>Д.Н. Вердеревский</td>
+    </tr>
+    <tr>
+        <td>А.П. Веретенников</td>
+        <td>Ф.Ф. Вигель</td>
+        <td>М.Ю. Виельгорский</td>
+    </tr>
+    <tr>
+        <td>А.Л. Витберг</td>
+        <td>С.Г. Волконский</td>
+        <td>М.А. Волошин</td>
+    </tr>
+    <tr>
+        <td>А.Н. Воронихин</td>
+        <td>Г. Воронов</td>
+        <td>А.Р. и С.Р. Воронцовы</td>
+    </tr>
+    <tr>
+        <td>В.В. Вырубов</td>
+        <td>Г.Н. Вырубов</td>
+        <td>В.Л. Вяземский</td>
+    </tr>
+    <tr>
+        <td>А. Вюртембергский</td>
+        <td>Г.П. Гагарин</td>
+        <td>Г.И. Газданов</td>
+    </tr>
+    <tr>
+        <td>С.И. Гамалея</td>
+        <td>М.В. Гардер</td>
+        <td>К.В. Гвозданвичо</td>
+    </tr>
+    <tr>
+        <td>З.Н. Гиппиус</td>
+        <td>Ф.Н. Глинка</td>
+        <td>М. И. Голенищев-Кутузов</td>
+    </tr>
+    <tr>
+        <td>П.И. Голенищев-Кутузов</td>
+        <td>А.Н. Голицын</td>
+        <td>А.Б. Голицын</td>
+    </tr>
+    <tr>
+        <td>Д.В. Голицын</td>
+        <td>Е.А. Головин</td>
+        <td>Н.А. Головин</td>
+    </tr>
+    <tr>
+        <td>К. Грейг</td>
+        <td>Н.И. Греч</td>
+        <td>А. С. Грибоедов</td>
+    </tr>
+    <tr>
+        <td>М.С. Грушевский</td>
+        <td>К.К. Грюнвальд</td>
+        <td>Р.Б. Гуль</td>
+    </tr>
+    <tr>
+        <td>Г.Д. Гурвич</td>
+        <td>И.П. Демидов</td>
+        <td>Н.А. Дивов</td>
+    </tr>
+    <tr>
+        <td>М.А. Дмитриев</td>
+        <td>А.И. Дмитриев-Мамонов</td>
+        <td>М.А. Дмитриев-Мамонов</td>
+    </tr>
+    <tr>
+        <td>М.В. Добужинский</td>
+        <td>Дон Аминадо</td>
+        <td>Л.В. Дубельт</td>
+    </tr>
+    <tr>
+        <td>Н.А. Дьяков</td>
+        <td>И.М. Евреинов</td>
+        <td>Н.Н. Евреинов</td>
+    </tr>
+    <tr>
+        <td>И.П. Елагин</td>
+        <td>В.Н. Емельянов</td>
+        <td>Б.Н. Ермолов</td>
+    </tr>
+    <tr>
+        <td>И.Н. Ефремов</td>
+        <td>В.Е. Жаботинский</td>
+        <td>В.А. Жуковский</td>
+    </tr>
+    <tr>
+        <td>В.М. Зензинов</td>
+        <td>В.П. Зубов</td>
+        <td>А.Г. Зусман</td>
+    </tr>
+    <tr>
+        <td>А.К. Ипсиланти</td>
+        <td>Н.И. Исцеленов</td>
+        <td>В.Д. Камынин</td>
+    </tr>
+    <tr>
+        <td>Л.Д. Кандауров</td>
+        <td>Н.М. Карамзин</td>
+        <td>А.М. Карамышев</td>
+    </tr>
+    <tr>
+        <td>З.Я. Карнеев</td>
+        <td>А.В. Карташев</td>
+        <td>Е.И. Кедрин</td>
+    </tr>
+    <tr>
+        <td>Я.Дж. Кейт</td>
+        <td>А.Ф. Керенский</td>
+        <td>Ф.П. Ключарев</td>
+    </tr>
+    <tr>
+        <td>А.П. Клягин</td>
+        <td>М.М. Ковалевский</td>
+        <td>Ф.Ф. Кокошкин</td>
+    </tr>
+    <tr>
+        <td>А.И. Коновалов</td>
+        <td>великий князь Константин Павлович М.Г. Корнфельд</td>
+        <td>Н.А. Котляревский</td>
+    </tr>
+    <tr>
+        <td>А. Коцебу</td>
+        <td>В.П. Кочубей</td>
+        <td>И.А. Кривошеин</td>
+    </tr>
+    <tr>
+        <td>К.Р. Кровопусков</td>
+        <td>Л.А. Кроль</td>
+        <td>М.А. Кроль</td>
+    </tr>
+    <tr>
+        <td>С.С. Крым</td>
+        <td>В.Д. Кузьмин-Караваев</td>
+        <td>А.М. Кулишер</td>
+    </tr>
+    <tr>
+        <td>Александр и Алексей Куракины</td>
+        <td>Е.Д. Кускова</td>
+        <td>А.М. Кутузов</td>
+    </tr>
+    <tr>
+        <td>Г.Г. Кушелев</td>
+        <td>Е.А. Кушелев</td>
+        <td>А.Ф. Лабзин</td>
+    </tr>
+    <tr>
+        <td>А. Ладыженский</td>
+        <td>А.Ф. Ланжерон</td>
+        <td>С.С. Ланской</td>
+    </tr>
+    <tr>
+        <td>В.И. Лебедев</td>
+        <td>В.А.Левшин</td>
+        <td>А.С. Левицкий</td>
+    </tr>
+    <tr>
+        <td>Д.Г. Левицкий</td>
+        <td>А.А. Ленивцев</td>
+        <td>Я. Ленц</td>
+    </tr>
+    <tr>
+        <td>С.Г. Лианозов</td>
+        <td>А.А. Лобанов-Ростовский</td>
+        <td>И.В. Лопухин</td>
+    </tr>
+    <tr>
+        <td>И.С. Лукаш</td>
+        <td>В.И. Лукин</td>
+        <td>А.М. Лунин</td>
+    </tr>
+    <tr>
+        <td>В.Л. Лукашевич</td>
+        <td>В.В. Лыщинский-Троекуров</td>
+        <td>М.Л. Магницкий</td>
+    </tr>
+    <tr>
+        <td>А.И. Мазе</td>
+        <td>В.А. Маклаков</td>
+        <td>С.К. Маковский</td>
+    </tr>
+    <tr>
+        <td>А.И. Мамонтов</td>
+        <td>М.С. Маргулиес</td>
+        <td>А.П. Марков</td>
+    </tr>
+    <tr>
+        <td>И.И. и П.И. Мелиссино</td>
+        <td>Н.М. Мельников</td>
+        <td>М.С. Мендельсон</td>
+    </tr>
+    <tr>
+        <td>А.С. Меншиков</td>
+        <td>Д.С. Мережковский</td>
+        <td>К.М. Миклашевский</td>
+    </tr>
+    <tr>
+        <td>Б.С. Миркин-Гецевич</td>
+        <td>митрополит Михаил (Десницкий)</td>
+        <td>К.В. Мочульский</td>
+    </tr>
+    <tr>
+        <td>С.Д. Мстиславский</td>
+        <td>А.Н. Муравьев</td>
+        <td>С.И. Муравьев-Апотолс</td>
+    </tr>
+    <tr>
+        <td>Д.С. Навашин</td>
+        <td>А.А. Нартов</td>
+        <td>А.Л. Нарышкин</td>
+    </tr>
+    <tr>
+        <td>М.И. Невзоров</td>
+        <td>Н.В. Некрасов</td>
+        <td>Ю.А. Нелединский-Мелецкий</td>
+    </tr>
+    <tr>
+        <td>С.Д. Нечаев</td>
+        <td>П.А. Нилус</td>
+        <td>Н.И. Новиков</td>
+    </tr>
+    <tr>
+        <td>Н.Н. Новосильцов</td>
+        <td>А.С. Норов</td>
+        <td>В.П. Обнинский</td>
+    </tr>
+    <tr>
+        <td>В.А. Оболенский</td>
+        <td>П.И. Озеров</td>
+        <td>Г.В. Орлов</td>
+    </tr>
+    <tr>
+        <td>М.А. Осоргин</td>
+        <td>А.И. Остерман-Толстой</td>
+        <td>Павел I</td>
+    </tr>
+
+    <tr>
+        <td>П.Н. Павлов-Сил ьванский</td>
+        <td>Н.И. и П.И. Панины</td>
+        <td>Д.С. Пасманик</td>
+    </tr>
+    <tr>
+        <td>М.В.Перваго</td>
+        <td>П.Н. Переверзев</td>
+        <td>А.А.Перовский(Погорельский)
+    </tr>
+    <tr>
+        <td>П.И. Пестель</td>
+        <td>С.В. Петлюра</td>
+        <td>Петр III</td>
+    </tr>
+    <tr>
+        <td>С.И. Плещеев</td>
+        <td>О.А. Поздеев</td>
+        <td>И. Полиньяк</td>
+    </tr>
+    <tr>
+        <td>П.А. Половцев</td>
+        <td>П.П. Помиан-Пезаровиус</td>
+        <td>Д.И. Попов</td>
+    </tr>
+    <tr>
+        <td>С.К. Потоцкий</td>
+        <td>Г.М. Походяшин</td>
+        <td>Б.Ю. Прегель</td>
+    </tr>
+    <tr>
+        <td>С.Н. Прокопович</td>
+        <td>А.И. Путилов</td>
+        <td>А.С. Пушкин</td>
+    </tr>
+    <tr>
+        <td>А.Н. Радищев</td>
+        <td>А.К. и К.Г. Разумовские</td>
+        <td>Ф.М. Рахманов барон Рейхель</td>
+    </tr>
+    <tr>
+        <td>Н.В. Репнин</td>
+        <td>А.П. Римский-Корсаков</td>
+        <td>Е.В. де Роберти</td>
+    </tr>
+    <tr>
+        <td>Д.П. Рунич</td>
+        <td>К.Ф. Рылеев</td>
+        <td>В.П. Рябушинский</td>
+    </tr>
+    <tr>
+        <td>Б.В. Савинков</td>
+        <td>В.Ф. Сафонов</td>
+        <td>П.Л. Сафонов</td>
+    </tr>
+    <tr>
+        <td>И.Н. Сахаров</td>
+        <td>Ю.Ф. Семенов</td>
+        <td>Я.Ф. Скарятин</td>
+    </tr>
+    <tr>
+        <td>М.И. Скобелев</td>
+        <td>П.П. Скоропадский</td>
+        <td>Г.Б. Слиозберг</td>
+    </tr>
+    <tr>
+        <td>М.Л. Слоним</td>
+        <td>Г.Я. Смирнов</td>
+        <td>Н.Д. Соколов</td>
+    </tr>
+    <tr>
+        <td>П.А. Соколов</td>
+        <td>С.А. Соколов (Кречетов)</td>
+        <td>С.И. Соколов</td>
+    </tr>
+    <tr>
+        <td>Б.В. Сосинский</td>
+        <td>М.М. Сперанский</td>
+        <td>Р.С. Степанов</td>
+    </tr>
+    <tr>
+        <td>А.С. и П.А. Строгановы</td>
+        <td>М.А. Струве</td>
+        <td>А. В. Суворов</td>
+    </tr>
+    <tr>
+        <td>А.П. Сумароков</td>
+        <td>В.Е. Татаринов</td>
+        <td>П.А. и П.П. Татищевы</td>
+    </tr>
+    <tr>
+        <td>Б.В. Телепнев</td>
+        <td>М.М. Тер-Погосян</td>
+        <td>Ю.К. Терапиано</td>
+    </tr>
+    <tr>
+        <td>Н.В. Тесленко</td>
+        <td>С.П. Тикстон</td>
+        <td>Ф.П. Толстой</td>
+    </tr>
+    <tr>
+        <td>А.С. Трачевский</td>
+        <td>С.Н. Третьяков</td>
+        <td>Н.Н. С.П. и Ю.Н. Трубецкие</td>
+    </tr>
+    <tr>
+        <td>А.А. Трубников</td>
+        <td>Н.И. Уткин</td>
+        <td>И.А. Фесслер</td>
+    </tr>
+    <tr>
+        <td>И.И. Фидлер</td>
+        <td>М.М. Филоненко</td>
+        <td>М.А. Фонвизин</td>
+    </tr>
+    <tr>
+        <td>С.П. Фонвизин</td>
+        <td>И.И. Фондаминский-Бунаков</td>
+        <td>А.А. Фролов</td>
+    </tr>
+    <tr>
+        <td>К.Н. Хагандоков</td>
+        <td>А.И. Хатисов</td>
+        <td>М. М. Херасков</td>
+    </tr>
+    <tr>
+        <td>П.Я. Чаадаев</td>
+        <td>Н.В. Чайковский</td>
+        <td>Х.А. Чеботарев</td>
+    </tr>
+    <tr>
+        <td>П.П. Чекалевский</td>
+        <td>З.Г.Чернышев</td>
+        <td>Г.И. Чернышев</td>
+    </tr>
+    <tr>
+        <td>И.Г. Чернышев</td>
+        <td>Саша Черный</td>
+        <td>барон Л. Чуди Н.С. Чхеидзе</td>
+    </tr>
+    <tr>
+        <td>А.И. Чхенкели</td>
+        <td>А.Н. Шахматов</td>
+        <td>Ф.П. Шаховской</td>
+    </tr>
+    <tr>
+        <td>И.Е. Шварц</td>
+        <td>П.И. Шварц</td>
+        <td>Д.А. Шереметев</td>
+    </tr>
+    <tr>
+        <td>А.И. Шингарев</td>
+        <td>С.П. Шипов</td>
+        <td>А.С. Шишков</td>
+    </tr>
+    <tr>
+        <td>И.А. Штарк</td>
+        <td>Ф.И. Шуберт</td>
+        <td>И.И. Шувалов</td>
+    </tr>
+    <tr>
+        <td>П.А. Шувалов</td>
+        <td>П.Е. Щеголев</td>
+        <td>М.М. Щербатов</td>
+    </tr>
+    <tr>
+        <td>М.С. Щулепников</td>
+        <td>Вс. Эйхенбаум (Волин)</td>
+        <td>С.Я. Эфрон</td>
+    </tr>
+    <tr>
+        <td>П.Н. Яблочков</td>
+        <td>В.И. Якобсон</td>
+        <td></td>
+    </tr>
+</table>
+
+<p>
+    Приведем также список «ложных братьев», о ком пишут в литературе, но которые масонами не были (хотя некоторые по своим качествам могли таковыми стать):
+</p>
+
+<table class="collum-3">
+    <tr>
+        <td>Аджемов М.С.</td>
+        <td>А.Ф. Аладьин</td>
+        <td>Алексеев М.В.</td>
+    </tr>
+    <tr>
+        <td>Андреев Н.Е.</td>
+        <td>Апостол П.Н.</td>
+        <td>Аргунов А.А.</td>
+    </tr>
+    <tr>
+        <td>Аронсон Г.Я.</td>
+        <td>Бак Ю.</td>
+        <td>Барановский В.Л.</td>
+    </tr>
+    <tr>
+        <td>Барк П.Л.</td>
+        <td>Барышников А.А.</td>
+        <td>Барятинский В.В.</td>
+    </tr>
+    <tr>
+        <td>Бахрушин Д.П.</td>
+        <td>Белоцветов Н.</td>
+        <td>Белоцветов С.А.</td>
+    </tr>
+    <tr>
+        <td>Берберов М.И.</td>
+        <td>Бернацкий М.В.</td>
+        <td>Бобринский В.А.</td>
+    </tr>
+    <tr>
+        <td>Богданов Б.О.</td>
+        <td>Боголепов А.А.</td>
+        <td>Боткин С.Д.</td>
+    </tr>
+    <tr>
+        <td>Брайкевич М.В.</td>
+        <td>Вишницер М.Л.</td>
+        <td>Воронович Н.В.</td>
+    </tr>
+    <tr>
+        <td>Вяземский Д.Л.</td>
+        <td>Гавронский Б.О.</td>
+        <td>Гайдар Е.Т.</td>
+    </tr>
+    <tr>
+        <td>Гвоздев К.А.</td>
+        <td>Гольдштейн М.Л.</td>
+        <td>Горбачев М.С.</td>
+    </tr>
+    <tr>
+        <td>Горький Максим</td>
+        <td>Гримм Д.Д.</td>
+        <td>Гулькевич К.Н.</td>
+    </tr>
+    <tr>
+        <td>Гумилев Н.С.</td>
+        <td>Гурко В.И.</td>
+        <td>Гучков Н.И.</td>
+    </tr>
+    <tr>
+        <td>Дживилегов А.К.</td>
+        <td>Долгоруков П.Д.</td>
+        <td>Ельцин Б.Н.</td>
+    </tr>
+    <tr>
+        <td>Зарудный А.С.</td>
+        <td>Зеелер В.Ф.</td>
+        <td>Иславин Л.В.</td>
+    </tr>
+    <tr>
+        <td>Ичас М.М.</td>
+        <td>Карпович М.М.</td>
+        <td>Кедров М.А.</td>
+    </tr>
+    <tr>
+        <td>Кизеветтер А.А.</td>
+        <td>Киселев Н.П.</td>
+        <td>Крымов А.М.</td>
+    </tr>
+    <tr>
+        <td>Куваев И.М.</td>
+        <td>Кутлер Н.Н.</td>
+        <td>Ломоносов Ю.В.</td>
+    </tr>
+    <tr>
+        <td>Лопухин С.А.</td>
+        <td>Лорис-Меликов И.Г.</td>
+        <td>Львов В.Н.</td>
+    </tr>
+    <tr>
+        <td>Львов Г.Е.</td>
+        <td>Маниковский А.А.</td>
+        <td>Меллер-Закомельский В.В.</td>
+    </tr>
+    <tr>
+        <td>Милюков П.Н.</td>
+        <td>Муравьев Н.К.</td>
+        <td>Муромцев С.А.</td>
+    </tr>
+    <tr>
+        <td>Набоков К.Д.</td>
+        <td>Никитин А.М.</td>
+        <td>Нобель Э.Л.</td>
+    </tr>
+    <tr>
+        <td>Нольде Б.Э.</td>
+        <td>Ольденбург С.Ф.</td>
+        <td>Оцуп Н.А.</td>
+    </tr>
+    <tr>
+        <td>Панина С.В.</td>
+        <td>Петражицкий Л.И.</td>
+        <td>Пешков З.А.</td>
+    </tr>
+    <tr>
+        <td>Пешкова Е.П.</td>
+        <td>Поклевский-Козелл С.А.</td>
+        <td>Поливанов А.А.</td>
+    </tr>
+    <tr>
+        <td>Полковников Г.П.</td>
+        <td>Родичев Ф.И.</td>
+        <td>Рутенберг П.М.</td>
+    </tr>
+    <tr>
+        <td>Сабашников М.В.</td>
+        <td>Салазкин С.С.</td>
+        <td>Сватиков С.Г.</td>
+    </tr>
+    <tr>
+        <td>Семека А.В.</td>
+        <td>Стахович М.А.</td>
+        <td>Струве П.Б.</td>
+    </tr>
+    <tr>
+        <td>Ступницкий А.Ф.</td>
+        <td>Тимашев Н.С.</td>
+        <td>Троцкий Л.Д.</td>
+    </tr>
+    <tr>
+        <td>Трубецкой Г.Н.</td>
+        <td>Федоров М.М.</td>
+        <td>Херасков И.М.</td>
+    </tr>
+    <tr>
+        <td>Хрусталев-Носарь Г.С.</td>
+        <td>Челноков М.В.</td>
+        <td>Черемисов В.А.</td>
+    </tr>
+    <tr>
+        <td>Чубайс А.Б.</td>
+        <td>Шидловский С.И.</td>
+        <td>Щепкин Д.М.</td>
+    </tr>
+    <tr>
+        <td>Щепкин Н.Н.</td>
+        <td>Элькин Б.И.</td>
+        <td>Энгельгардт Б.А.</td>
+    </tr>
+    <tr>
+        <td>Яковлев А.Н.</td>
+        <td>Якубович М.П.</td>
+        <td></td>
+    </tr>
+</table>
+
+
+
 <p>Зарубежные знаменитые масоны.&nbsp;Число зарубежных вольных каменщиков огромно, чтобы вы адекватно могли представлять
     себе роль масонства в мировой истории (оговорим сразу, что мы не собираемся заниматься апологией масонства, в разные
     исторические периоды и в разных странах масонство играло различную роль, а главное не представляло собой некую
