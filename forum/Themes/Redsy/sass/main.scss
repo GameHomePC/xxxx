@@ -38,6 +38,7 @@ body {
     max-width: 950px;
     margin: auto;
     padding: 0 20px;
+    box-sizing: content-box;
 }
 
 footer {
@@ -90,4 +91,7 @@ body {
     color: #fff!important;
 }
 
-.submenu__title:after { margin-top: -5px; }
+.menu {
+    .menu-desktop { padding-left: 0; }
+    .submenu ul { padding-left: 0; }
+}
