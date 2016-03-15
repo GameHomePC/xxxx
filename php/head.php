@@ -5,12 +5,14 @@
 
 <title>
     <?php
+        $prefix = ' - масонская ложа Беларуси';
+
         if(isset($page['title']) && !empty($page['title'])) {
-            echo $page['title'];
+            echo $page['title'] . $prefix;
         }
 
         if(empty($page['title']) == 1) {
-            echo "Белый Рыцарь - Масонство в Беларуси";
+            echo "Белый Рыцарь - Масонство в Беларуси" . $prefix;
         }
     ?>
 </title>

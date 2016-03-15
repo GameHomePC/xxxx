@@ -2,17 +2,17 @@
     <div class="wrapper">
         <div class="news">
             <a href="/what.html" class="news__item">
-                <img src="images/news-1.jpg" alt="">
+                <img src="images/news-1.jpg" alt="Что такое масонство">
                 <div class="news__title">Что такое масонство?</div>
             </a>
 
             <a href="/information.html" class="news__item">
-                <img src="images/news-2.jpg" alt="">
+                <img src="images/news-2.jpg" alt="масонство в беларуси">
                 <div class="news__title">Масонство в Беларуси</div>
             </a>
 
             <a href="/forum/" class="news__item">
-                <img src="images/news-3.jpg" alt="">
+                <img src="images/news-3.jpg" alt="форум масонов беларусь">
                 <div class="news__title">Форум</div>
             </a>
         </div>
@@ -23,7 +23,7 @@
             <div class="infoNews__box">
                 <div class="infoNews__item">
                     <p>
-                        <img src="images/images-1.png" alt="">
+                        <img src="images/images-1.png" alt="Великая ложа">
                         Краткое описание белорусской ложи “Белый рыцарь“.
                         <br><br>
                         Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.

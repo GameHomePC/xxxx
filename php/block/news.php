@@ -11,7 +11,7 @@
                                 </a>
                             </h3>
 
-                            <img class="paper__images_mobile" src="images/paper-1.jpg" alt="">
+                            <img class="paper__images_mobile" src="images/paper-1.jpg" alt="масонство в беларуси">
 
                             <p class="paper__description">
                                 Обсуждение на любые темы, связанные с масонством в Беларуси. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
@@ -23,7 +23,7 @@
                             </div>
                         </div>
 
-                        <img class="paper__images" src="images/paper-1.jpg" alt="">
+                        <img class="paper__images" src="images/paper-1.jpg" alt="масонство в беларуси">
                     </div>
 
                     <div class="paper__item">
@@ -34,7 +34,7 @@
                                 </a>
                             </h3>
 
-                            <img class="paper__images_mobile" src="images/paper-2.jpg" alt="">
+                            <img class="paper__images_mobile" src="images/paper-2.jpg" alt="масонское братство">
 
                             <p class="paper__description">
                                 Обсуждение вопросов вступления и подготовки к вступлению в братство. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took.
@@ -46,7 +46,7 @@
                             </div>
                         </div>
 
-                        <img class="paper__images" src="images/paper-2.jpg" alt="">
+                        <img class="paper__images" src="images/paper-2.jpg" alt="масонское братство">
                     </div>
                 </div>
             </div>

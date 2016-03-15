@@ -142,6 +142,6 @@ switch($_GET["page"]) {
     default:
         $page = array(
             "title"=>"404",
-            "page"=>"404"
+            "page"=>header( 'Location: /' )
         );
 }
