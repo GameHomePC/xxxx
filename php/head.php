@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
-<meta name="description" content="Официальный сайт белорусской масонской ложи 'Д.Л. Белый Рыцарь'. Обсуждение на любые темы, связанные с масонством в Беларуси."
+<meta name="description" content="Официальный сайт белорусской масонской ложи 'Д.Л. Белый Рыцарь'. Обсуждение на любые темы, связанные с масонством в Беларуси.">
 
 <title>
     <?php
@@ -9,8 +9,8 @@
             echo $page['title'];
         }
 
-        if(empty($page['title'])) {
-            echo "";
+        if(empty($page['title']) == 1) {
+            echo "Белый Рыцарь - Масонство в Беларуси";
         }
     ?>
 </title>
