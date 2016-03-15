@@ -13,7 +13,7 @@
         <div class="newsTop__title">Правда и неправда о Масонстве</div>
     </a>
 
-    <a href="/forum/index.php?board=1.0" class="newsTop__item" target="_blank">
+    <a href="/forum/index.php?topic=5.0" class="newsTop__item" target="_blank">
         <div class="newsTop__images">
             <img src="images/t-3.jpg" alt="">
         </div>

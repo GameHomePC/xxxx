@@ -138,4 +138,10 @@ switch($_GET["page"]) {
             "page"=>"php/page/questions-for-joining.php"
         );
         break;
+
+    default:
+        $page = array(
+            "title"=>"404",
+            "page"=>"404"
+        );
 }
