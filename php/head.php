@@ -2,6 +2,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1.0">
 <meta name="description" content="Официальный сайт белорусской масонской ложи 'Д.Л. Белый Рыцарь'. Обсуждение на любые темы, связанные с масонством в Беларуси.">
+<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
 <title>
     <?php

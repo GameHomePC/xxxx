@@ -180,7 +180,7 @@ function template_html_above()
 	<meta http-equiv="Content-Type" content="text/html; charset=', $context['character_set'], '" />
 	<meta name="description" content="', $context['page_title_html_safe'], '" />', !empty($context['meta_keywords']) ? '
 	<meta name="keywords" content="' . $context['meta_keywords'] . '" />' : '', '
-	<title>', $context['page_title_html_safe'], '</title>';
+	<title>', $context['page_title_html_safe'] . ' - Форум о масонтсве', '</title>';
 
 	// Please don't index these Mr Robot.
 	if (!empty($context['robot_no_index']))
@@ -216,6 +216,18 @@ function template_html_above()
 
 	// Output any remaining HTML headers. (from mods, maybe?)
 	echo $context['html_headers'];
+
+    echo "
+        <script>
+          (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+          (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+          m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+          })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+          ga('create', 'UA-75117743-1', 'auto');
+          ga('send', 'pageview');
+        </script>
+    ";
 
 	echo '
 </head>
