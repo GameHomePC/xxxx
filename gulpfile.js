@@ -130,9 +130,11 @@ gulp.task('browser-sync', function() {
 // ==============
 gulp.task('sassForum', function () {
     gulp.src(conf.forum.sass.src)
+        .pipe(gulpIf(NODE_ENV != "production", sourcemaps.init()))
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([ autoprefixer({ browsers: ['last 100 version'] }) ]))
-        .pipe(minifyCss())
+        .pipe(gulpIf(NODE_ENV == "production", minifyCss()))
+        .pipe(gulpIf(NODE_ENV != "production", sourcemaps.write()))
         .pipe(gulp.dest(conf.forum.sass.dist))
         .pipe(browserSync.reload({stream: true}));
 });
@@ -150,6 +152,11 @@ gulp.task('watch', function() {
 });
 
 // ==============
-// default
+// dev
 // ==============
-gulp.task('default', ['browser-sync', 'sass', 'sassForum', 'watch', 'sprite', 'scripts']);
+gulp.task('dev', ['browser-sync', 'sass', 'sassForum', 'watch', 'sprite', 'scripts']);
+
+// ==============
+// prod
+// ==============
+gulp.task('prod', ['sass', 'sassForum', 'sprite', 'scripts']);

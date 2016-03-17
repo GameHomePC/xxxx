@@ -4,8 +4,8 @@
   "description": "xxxx",
   "main": "index.js",
   "scripts": {
-    "dev": "set NODE_ENV=development& gulp",
-    "prod": "set NODE_ENV=production& gulp"
+    "dev": "set NODE_ENV=development& gulp dev",
+    "prod": "set NODE_ENV=production& gulp prod"
   },
   "author": "evgeny",
   "license": "ISC",
