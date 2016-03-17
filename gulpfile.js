@@ -1,5 +1,7 @@
 "use strict";
 
+const NODE_ENV = process.env.NODE_ENV || 'development';
+
 let gulp = require('gulp'),
     sourcemaps = require('gulp-sourcemaps'),
     postcss = require('gulp-postcss'),
@@ -12,7 +14,8 @@ let gulp = require('gulp'),
     concat = require('gulp-concat'),
     uglify = require('gulp-uglify'),
     minifyCss = require('gulp-minify-css'),
-    gutil = require('gulp-util');
+    gutil = require('gulp-util'),
+    gulpIf = require('gulp-if');
 
 let conf = {
     localServer: 'xxxx.loc',
@@ -56,6 +59,7 @@ let conf = {
 gulp.task('scripts', function() {
     return gulp.src(conf.scripts.src)
         .pipe(concat('all.js'))
+        .pipe(gulpIf(NODE_ENV == "production", uglify()))
         .pipe(gulp.dest(conf.scripts.dest))
         .pipe(browserSync.reload({stream: true}));
 });
@@ -96,11 +100,11 @@ gulp.task('sprite', function () {
 // ==============
 gulp.task('sass', function () {
     gulp.src(conf.sass.libSass)
-        //.pipe(sourcemaps.init())
+        .pipe(gulpIf(NODE_ENV != "production", sourcemaps.init()))
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss([ autoprefixer({ browsers: ['last 100 version'] }) ]))
-        .pipe(minifyCss())
-        //.pipe(sourcemaps.write())
+        .pipe(gulpIf(NODE_ENV == "production", minifyCss()))
+        .pipe(gulpIf(NODE_ENV != "production", sourcemaps.write()))
         .pipe(gulp.dest(conf.sass.css))
         .pipe(browserSync.reload({stream: true}));
 });
