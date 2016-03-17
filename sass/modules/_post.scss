@@ -39,13 +39,27 @@
     h3 {
         font-size: 20px;
         font-weight: 600;
-        line-height: 30px;
+        line-height: 24px;
         color: #ffffff;
         margin-bottom: 10px;
 
         @include breakpointmedia($media-480, 'max-width') {
             font-size: 14px;
             line-height: 22px;
+            margin-bottom: 10px;
+        }
+    }
+
+    h4 {
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 22px;
+        color: #ffffff;
+        margin-bottom: 10px;
+
+        @include breakpointmedia($media-480, 'max-width') {
+            font-size: 14px;
+            line-height: 18px;
             margin-bottom: 10px;
         }
     }
@@ -235,5 +249,55 @@
     @include letter-spacing(100, 20);
     color: #ffffff;
     margin-bottom: 13px;
+}
+
+/* boxDropDown */
+.boxDropDown {
+    counter-reset: listBox;
+}
+
+.boxDropDown__item {
+    margin-bottom: 15px;
+    counter-increment: listBox;
+
+    @include breakpointmedia($media-480, 'max-width') {
+        margin-bottom: 10px;
+    }
+
+    &:last-of-type { margin-bottom: 0; }
+
+    h2 {
+        position: relative;
+        cursor: pointer;
+        user-select: none;
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 5px;
+
+        @include breakpointmedia($media-480, 'max-width') {
+            font-size: 13px;
+            line-height: 16px;
+        }
+
+        &:before {
+            display: inline-block;
+            vertical-align: top;
+            padding-right: 5px;
+            content: counter(listBox)'.';
+        }
+
+        &:hover, &.active {
+            text-decoration: underline;
+        }
+    }
+}
+
+.boxDropDown__description {
+    display: none;
+    * {
+        &:last-of-type {
+            margin-bottom: 0;
+        }
+    }
 }
 

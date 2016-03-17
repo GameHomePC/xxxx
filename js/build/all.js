@@ -14741,6 +14741,7 @@ function Constructor() {
         this.glossary = jQuery(config.glossary);
         this.boxFixed = jQuery(config.boxFixed);
         this.newsList = jQuery(config.newsList);
+        this.boxDropDown = jQuery(config.boxDropDown);
 
         if(this.menu.length) { this.getMenu(); }
         if(this.header.length) { this.getScroll(); }
@@ -14748,6 +14749,44 @@ function Constructor() {
         if(this.menuMin.length) { this.getMenuMin(); }
         if(this.glossary.length) { this.getGlossary(); }
         if(this.boxFixed.length) { this.getBoxFixed(); }
+        if(this.boxDropDown.length) { this.getboxDropDown(); }
+    };
+
+    this.getboxDropDown = function() {
+        var dropDown = this.boxDropDown,
+            dropDownTitle = dropDown.find('h2'),
+            headerHeight = this.header.height();
+
+        function scrollTopItem(selected) {
+            var statusHeader = (jQuery('body').hasClass('activeScroll')) ? 0 : headerHeight;
+
+            jQuery('html, body').stop().animate({
+                scrollTop: selected.offset().top - statusHeader
+            });
+
+        }
+
+        dropDownTitle.on('click', function() {
+            var self = jQuery(this);
+
+            if(!self.hasClass('active')) {
+                dropDownTitle.removeClass('active');
+                dropDownTitle.next().slideUp({
+                    duration: 300
+                });
+
+                self.addClass('active');
+                self.next().slideDown({
+                    duration: 300
+                });
+            } else {
+                self.removeClass('active');
+                self.next().slideUp({
+                    duration: 300
+                });
+            }
+
+        });
     };
 
     this.getMenu = function() {
@@ -14995,7 +15034,8 @@ function Constructor() {
             menuMin: '#menuMin',
             glossary: '#glossary',
             boxFixed: '#boxFixed',
-            newsList: '.newsList'
+            newsList: '.newsList',
+            boxDropDown: '#boxDropDown'
         });
 
     });
