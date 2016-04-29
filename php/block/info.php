@@ -24,28 +24,27 @@
                 <div class="infoNews__item">
                     <p>
                         <img src="images/images-1.png" alt="Великая ложа">
-                        Краткое описание белорусской ложи “Белый рыцарь“.
+                        Здравствуйте!
                         <br><br>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.
+                        Приветствуем Вас на официальном сайте масонской ложи «Белый Рыцарь».
                         <br><br>
-                        It was <a href="#">popularised in the 1960s</a> with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including.
+                        Достопочтенная Ложа «Белый Рыцарь» торжественно пробуждена 12 сентября 2015 года на востоке города Москвы под номером 25.
+                        <br><br>
+                        Проводит свои работы на территории Республики Беларусь под сенью и покровительством Великой Ложи России – суверенной законно учрежденной Великой ложей регулярного мирового масонства.
+                        <br><br>
+                        Достопочтенная Ложа «Белый рыцарь» действует в соответствии с законодательством Республики Беларусь, Конституцией Великой Ложи, Ландмарками, принципами регулярности, обычаями и традициями Вольных каменщиков.
                     </p>
-
-                    <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset.
-                    </p>
-
                 </div>
 
                 <div class="infoNews__item">
                     <p>
-                        Lorem Ipsum is simply dummy text of the printing and <a href="#">typesetting industry</a>. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        Основная цель работ нашей Ложи, заключается в совершенствовании членов Ордена и масонских сообществ, в которых Братья трудятся и проводят свободное время, просвещаясь и перенимая принципы Братской Любви, Терпимости, Милосердия и Истины в атмосфере высоких социальных, моральных, и духовных ценностей, включая общение, сострадание и преданность Богу, семье и стране.
                         <br><br>
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Работы Ложи проводятся по Древнему и Принятому Шотландскому Уставу на востоке городов Минска и Москвы. Действующими членами нашей организации являются масоны, преимущественно проживающих на территории Республики Беларусь.
                         <br><br>
-                        Lorem <a href="#">Ipsum is simply dummy text</a> of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
+                        Являясь обладателем масонского патента, Достопочтенная Ложа «Белый Рыцарь» имеет полномочия посвящать кандидатов в масонство, посвящать учеников в подмастерье, а подмастерьев – в мастера согласно ритуалу и церемониям принятыми и утверждёнными древними обычаями Ордена.
                         <br><br>
-                        It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        Надеемся, что на нашем сайте Вы будете чувствовать себя так же уютно, как Братья нашей Ложи – в ее стенах.
                     </p>
                 </div>
             </div>

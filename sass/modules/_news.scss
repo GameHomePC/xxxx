@@ -17,6 +17,7 @@
 }
 
 .paper__item {
+    position: relative;
     padding-top: 12px;
     margin-bottom: 30px;
     @include clearfix;
@@ -26,15 +27,20 @@
     }
 
     &:last-of-type { margin-bottom: 0; }
+
+    .wrapperButton {
+        position: absolute;
+        bottom: 0;
+    }
 }
 
 .paper__box {
-    position: relative;
     float: left;
     width: 100%;
     box-sizing: border-box;
     margin-right: -58.6%;
     padding-right: 61.5%;
+    padding-bottom: 38px;
     z-index: 10;
 
     & + img {
@@ -76,11 +82,13 @@
 }
 
 .paper__title {
+    position: relative;
     font-size: 36px;
     font-weight: 600;
     color: #010101;
     line-height: 40px;
     margin-bottom: 16px;
+    z-index: 100;
 
     @include breakpointmedia($media-768, 'max-width') {
         font-size: 22px;
