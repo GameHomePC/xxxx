@@ -279,12 +279,12 @@
             line-height: 16px;
         }
 
-        &:before {
-            display: inline-block;
-            vertical-align: top;
-            padding-right: 5px;
-            content: counter(listBox)'.';
-        }
+        //&:before {
+        //    display: inline-block;
+        //    vertical-align: top;
+        //    padding-right: 5px;
+        //    content: counter(listBox)'.';
+        //}
 
         &:hover, &.active {
             text-decoration: underline;
